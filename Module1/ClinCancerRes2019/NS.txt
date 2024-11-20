@@ -1,0 +1,58 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+from scipy import stats
+
+# Step 1: Remove samples labeled as "Recurrence" in the Sample Type column
+filtered_df = merged_df_clean[merged_df_clean['Sample Type'] != 'Recurrence']
+
+
+
+# Step 3: Assign IDH Status based on mutations in IDH1 or IDH2
+idh_mutant_patients = filtered_df[filtered_df['Hugo_Symbol'].isin(['IDH1', 'IDH2'])]['Patient ID'].unique()
+filtered_df['IDH_Status'] = filtered_df['Patient ID'].apply(
+    lambda pid: 'IDH Mutant' if pid in idh_mutant_patients else 'IDH WT'
+)
+
+# Step 2: Group by Patient ID and keep the first sample for each patient
+filtered_df = filtered_df.groupby('Patient ID').first().reset_index()
+
+# Step 4: Group patients by IDH Status and calculate average TMB for each group
+tmb_idh_mutant = filtered_df[filtered_df['IDH_Status'] == 'IDH Mutant']['TMB (nonsynonymous)']
+tmb_idh_wt = filtered_df[filtered_df['IDH_Status'] == 'IDH WT']['TMB (nonsynonymous)']
+
+# Calculate the means for each group
+mean_tmb_idh_mutant = tmb_idh_mutant.mean()
+mean_tmb_idh_wt = tmb_idh_wt.mean()
+
+# Step 5: Perform t-test to compare TMB between IDH WT and IDH mutant groups
+t_stat, p_value = stats.ttest_ind(tmb_idh_mutant, tmb_idh_wt, equal_var=False)
+
+# Step 6: Plot bar chart of TMB for IDH mutant and IDH WT groups
+plt.figure(figsize=(8, 6))
+bars = plt.bar(['IDH Mutant', 'IDH WT'], [mean_tmb_idh_mutant, mean_tmb_idh_wt], color=['blue', 'orange'])
+
+# Step 7: Add p-value annotation with stars
+if p_value < 0.001:
+    significance = '***'
+elif p_value < 0.01:
+    significance = '**'
+elif p_value < 0.05:
+    significance = '*'
+else:
+    significance = 'NS'
+
+# Add the p-value text above the bars
+plt.text(0.5, max(mean_tmb_idh_mutant, mean_tmb_idh_wt) + 5, significance, ha='center', va='bottom', fontsize=20, color='black')
+
+# Step 8: Formatting the plot
+plt.ylabel('TMB (mutations)', fontsize=14)
+plt.xlabel('IDH Status', fontsize=14)
+plt.title('Comparison of TMB between IDH Mutant and IDH WT Patients', fontsize=16)
+plt.ylim(0, 20)  # Y-axis scale as a percentage
+plt.tight_layout()
+
+# Show the plot
+plt.show()
+
+# Step 9: Print the p-value for reference
+print(f"T-test p-value: {p_value:.4f}")

@@ -1,0 +1,928 @@
+#Patient Identifier	Patient Display Name	Sex	Diagnosis Age	WHO Classification of Diagnostic Tumor	MGMT Status	Highest OncoKB Level	Actionable Lesion1	Received Targeted Treatment	Overall Survival Status	Overall Survival (Months)	Progression Free Status	Progress Free Survival (Months)
+#Identifier to uniquely specify a patient.	Patient Display Name	Sex	Age at which a condition or disease was first diagnosed.	WHO classification of diagnostic tumor	MGMT Status	Highest OncoKB level	Actionable lesion1	Received targeted treatment	Overall patient survival status.	Overall survival in months since initial diagonosis.	Progression Free Status	Progress Free Survival (Months)
+#STRING	STRING	STRING	NUMBER	STRING	STRING	STRING	STRING	STRING	STRING	NUMBER	STRING	NUMBER
+#1	1	1	1	1	1	1	1	1	9	1	1	1
+PATIENT_ID	PATIENT_DISPLAY_NAME	SEX	AGE	WHO_CLASSIFICATION_OF_DX_TUMOR	MGMT_STATUS	HIGHEST_ONCOKB_LEVEL	ACTIONABLE_LESION1	RECEIVED_TARGETED_TX	OS_STATUS	OS_MONTHS	PFS_STATUS	PFS_MONTHS
+P-0010578	glioma_mskcc_2019_1	Male	40	Glioblastoma, IDH-wildtype	Unmethylated	2B	Yes	Yes	1:DECEASED	83.7	1:PROGRESSION	42.0
+P-0003850	glioma_mskcc_2019_10	Male	53	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	25.6	1:PROGRESSION	10.6
+P-0005696	glioma_mskcc_2019_100	Male	55	Glioblastoma, IDH-wildtype	Unmethylated	3B	Yes	No	1:DECEASED	11.8	1:PROGRESSION	6.08
+P-0002836	glioma_mskcc_2019_101	Female	55	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	12.8	1:PROGRESSION	5.49
+P-0005254	glioma_mskcc_2019_102	Female	57	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	13.8		
+P-0006970	glioma_mskcc_2019_103	Male	48	Glioblastoma, IDH-wildtype	Unmethylated	2B	Yes	No	1:DECEASED	13.4	1:PROGRESSION	8.75
+P-0004209	glioma_mskcc_2019_104	Male	61	Glioblastoma, IDH-wildtype	Unmethylated	None	No	No	1:DECEASED	12.5	1:PROGRESSION	6.35
+P-0004491	glioma_mskcc_2019_105	Female	73	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	9.93	1:PROGRESSION	6.28
+P-0005113	glioma_mskcc_2019_106	Male	56	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	14.4		
+P-0006786	glioma_mskcc_2019_107	Female	42	Glioblastoma, IDH-wildtype	Unmethylated	3B	Yes	Yes	1:DECEASED	8.05	1:PROGRESSION	2.96
+P-0010004	glioma_mskcc_2019_108	Female	44	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	10.3		
+P-0004849	glioma_mskcc_2019_109	Male	69	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	19.2	1:PROGRESSION	11.9
+P-0011010	glioma_mskcc_2019_11	Female	53	Glioblastoma, IDH-wildtype	Unmethylated	3B	Yes	Yes	0:LIVING	8.48	1:PROGRESSION	6.87
+TRF053947	glioma_mskcc_2019_110	Male	64	Glioblastoma, IDH-wildtype	Unmethylated	3B	Yes	No	1:DECEASED	14.6		
+P-0000572	glioma_mskcc_2019_111	Male	59	Glioblastoma, IDH-wildtype	Unmethylated	None	No	No	1:DECEASED	5.52		
+TRF027871	glioma_mskcc_2019_112	Male	54	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	16.4		
+P-0008933	glioma_mskcc_2019_113	Male	83	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	6.21		
+TRF043513	glioma_mskcc_2019_114	Male	57	Glioblastoma, IDH-wildtype	Unmethylated	2B	Yes	No	1:DECEASED	7.79		
+P-0000759	glioma_mskcc_2019_115	Male	58	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	11.6		
+P-0008420	glioma_mskcc_2019_116	Female	62	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	4.41		
+P-0010336	glioma_mskcc_2019_117	Male	60	Glioblastoma, IDH-wildtype	Unmethylated	2B	Yes	No	1:DECEASED	4.37		
+P-0012902	glioma_mskcc_2019_118	Male	57	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	8.68		
+P-0010850	glioma_mskcc_2019_119	Male	52	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	12.0	1:PROGRESSION	8.19
+P-0006045	glioma_mskcc_2019_12	Female	64	Glioblastoma, IDH-wildtype	Unmethylated	2B	Yes	No	1:DECEASED	21.1	1:PROGRESSION	7.23
+P-0001728	glioma_mskcc_2019_120	Female	42	Glioblastoma, IDH-wildtype	Unmethylated	2B	Yes	No	1:DECEASED	10.0		
+P-0001928	glioma_mskcc_2019_121	Male	27	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	11.8		
+TRF063580	glioma_mskcc_2019_122	Male	20	Glioblastoma, IDH-wildtype	Unmethylated	2B	Yes	No	0:LIVING	6.84		
+P-0007024	glioma_mskcc_2019_123	Female	70	Glioblastoma, IDH-wildtype	Unmethylated	2B	Yes	No	0:LIVING	13.2		
+P-0009711	glioma_mskcc_2019_124	Male	59	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	22.9		
+P-0009973	glioma_mskcc_2019_125	Male	53	Glioblastoma, IDH-wildtype	Unmethylated	3B	Yes	No	0:LIVING	12.5		
+P-0010344	glioma_mskcc_2019_126	Male	50	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	27.4		
+P-0010743	glioma_mskcc_2019_127	Male	74	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	70.6		
+P-0010060	glioma_mskcc_2019_128	Male	70	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	14.3		
+TRF034438	glioma_mskcc_2019_129	Female	53	Glioblastoma, IDH-wildtype	Unmethylated	3B	Yes	No	1:DECEASED	62.0		
+P-0005929	glioma_mskcc_2019_13	Female	74	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	15.8	1:PROGRESSION	7.07
+glioma_mskcc_2019_130	glioma_mskcc_2019_130	Male	38	Glioblastoma, IDH-wildtype	Unmethylated	2B	Yes	Yes	1:DECEASED	28.3		
+TRF031593	glioma_mskcc_2019_131	Male	51	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	18.7		
+TRF030626	glioma_mskcc_2019_132	Male	57	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	9.8		
+P-0003529	glioma_mskcc_2019_133	Male	66	Glioblastoma, IDH-wildtype	Unmethylated	3B	Yes	No	1:DECEASED	28.6		
+P-0003693	glioma_mskcc_2019_134	Male	47	Glioblastoma, IDH-wildtype	Unmethylated	2B	Yes	No	1:DECEASED	13.1		
+P-0010570	glioma_mskcc_2019_135	Female	53	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	19.3		
+P-0000653	glioma_mskcc_2019_136	Male	62	Glioblastoma, IDH-wildtype	Unmethylated	3B	Yes	No	1:DECEASED	19.0		
+P-0000944	glioma_mskcc_2019_137	Female	51	Glioblastoma, IDH-wildtype	Unmethylated	2B	Yes	Yes	1:DECEASED	64.0		
+P-0000906	glioma_mskcc_2019_138	Male	70	Glioblastoma, IDH-wildtype	Methylated	2B	Yes	Yes	0:LIVING	73.6	1:PROGRESSION	7.13
+P-0013673	glioma_mskcc_2019_139	Male	60	Glioblastoma, IDH-wildtype	Methylated	4	No	No	0:LIVING	51.3	1:PROGRESSION	39.6
+P-0006416	glioma_mskcc_2019_14	Male	64	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	22.7	1:PROGRESSION	7.56
+TRF021125	glioma_mskcc_2019_140	Male	62	Glioblastoma, IDH-wildtype	Methylated	4	No	No	1:DECEASED	42.2	1:PROGRESSION	3.16
+P-0000378	glioma_mskcc_2019_141	Male	55	Glioblastoma, IDH-wildtype	Methylated	4	No	No	1:DECEASED	36.6		
+TRF029672	glioma_mskcc_2019_142	Male	60	Glioblastoma, IDH-wildtype	Methylated	3B	Yes	No	0:LIVING	57.0	1:PROGRESSION	12.1
+P-0005051	glioma_mskcc_2019_143	Female	54	Glioblastoma, IDH-wildtype	Methylated	4	No	No	1:DECEASED	40.8	1:PROGRESSION	5.88
+TRF044138	glioma_mskcc_2019_144	Male	55	Glioblastoma, IDH-wildtype	Methylated	2B	Yes	No	0:LIVING	16.4		
+P-0003360	glioma_mskcc_2019_145	Male	61	Glioblastoma, IDH-wildtype	Methylated	2B	Yes	No	0:LIVING	42.0	1:PROGRESSION	11.5
+P-0003068	glioma_mskcc_2019_146	Male	54	Glioblastoma, IDH-wildtype	Methylated	4	No	No	0:LIVING	9.8	1:PROGRESSION	9.67
+P-0001582	glioma_mskcc_2019_147	Male	77	Glioblastoma, IDH-wildtype	Methylated	4	No	No	0:LIVING	49.7	1:PROGRESSION	30.1
+P-0009052	glioma_mskcc_2019_148	Male	50	Glioblastoma, IDH-wildtype	Methylated	4	No	No	1:DECEASED	20.8		
+P-0009449	glioma_mskcc_2019_149	Female	45	Glioblastoma, IDH-wildtype	Methylated	4	No	No	0:LIVING	24.7		
+P-0005877	glioma_mskcc_2019_15	Male	60	Glioblastoma, IDH-wildtype	Unmethylated	4	No	Yes	0:LIVING	24.2	1:PROGRESSION	19.8
+P-0013544	glioma_mskcc_2019_150	Male	45	Glioblastoma, IDH-wildtype	Methylated	2B	Yes	Yes	0:LIVING	61.2	1:PROGRESSION	42.2
+P-0005361	glioma_mskcc_2019_151	Female	54	Glioblastoma, IDH-wildtype	Methylated	3B	Yes	No	0:LIVING	25.4	1:PROGRESSION	6.41
+P-0002891	glioma_mskcc_2019_152	Female	53	Glioblastoma, IDH-wildtype	Methylated	4	No	No	0:LIVING	47.8	1:PROGRESSION	38.9
+P-0002265	glioma_mskcc_2019_153	Male	67	Glioblastoma, IDH-wildtype	Methylated	2B	Yes	No	0:LIVING	30.4	1:PROGRESSION	18.4
+P-0004837	glioma_mskcc_2019_154	Male	69	Glioblastoma, IDH-wildtype	Methylated	4	No	No	1:DECEASED	20.0	1:PROGRESSION	14.1
+P-0007504	glioma_mskcc_2019_155	Male	49	Glioblastoma, IDH-wildtype	Methylated	4	No	No	1:DECEASED	16.7	1:PROGRESSION	7.17
+P-0002400	glioma_mskcc_2019_156	Female	68	Glioblastoma, IDH-wildtype	Methylated	4	No	No	1:DECEASED	26.5	1:PROGRESSION	20.6
+P-0010483	glioma_mskcc_2019_157	Female	44	Glioblastoma, IDH-wildtype	Methylated	3B	Yes	No	0:LIVING	14.0	0:CENSORED	14.0
+P-0006441	glioma_mskcc_2019_158	Male	56	Glioblastoma, IDH-wildtype	Methylated	None	No	No	1:DECEASED	28.1	1:PROGRESSION	19.1
+P-0010970	glioma_mskcc_2019_159	Male	61	Glioblastoma, IDH-wildtype	Methylated	4	No	No	0:LIVING	18.5	1:PROGRESSION	17.1
+P-0007314	glioma_mskcc_2019_16	Male	41	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	18.9	1:PROGRESSION	9.4
+P-0001425	glioma_mskcc_2019_160	Female	49	Glioblastoma, IDH-wildtype	Methylated	3B	Yes	No	0:LIVING	42.5	1:PROGRESSION	29.1
+P-0007027	glioma_mskcc_2019_161	Male	51	Glioblastoma, IDH-wildtype	Methylated	4	No	No	1:DECEASED	19.6	1:PROGRESSION	10.2
+P-0002936	glioma_mskcc_2019_162	Male	71	Glioblastoma, IDH-wildtype	Methylated	4	No	Yes	0:LIVING	39.2	1:PROGRESSION	29.0
+P-0010992	glioma_mskcc_2019_163	Male	60	Glioblastoma, IDH-wildtype	Methylated	4	No	No	0:LIVING	13.5		
+P-0010391	glioma_mskcc_2019_164	Female	64	Glioblastoma, IDH-wildtype	Methylated	None	No	No	0:LIVING	16.7	1:PROGRESSION	11.7
+P-0004627	glioma_mskcc_2019_165	Male	87	Glioblastoma, IDH-wildtype	Methylated	4	No	No	0:LIVING	24.8	0:CENSORED	24.8
+P-0006823	glioma_mskcc_2019_166	Male	61	Glioblastoma, IDH-wildtype	Methylated	None	No	No	0:LIVING	72.7	0:CENSORED	72.7
+P-0001569	glioma_mskcc_2019_167	Female	67	Glioblastoma, IDH-wildtype	Methylated	2B	Yes	No	0:LIVING	67.4	0:CENSORED	67.4
+P-0005874	glioma_mskcc_2019_168	Male	51	Glioblastoma, IDH-wildtype	Methylated	None	No	No	0:LIVING	13.8	0:CENSORED	13.8
+P-0005141	glioma_mskcc_2019_169	Male	56	Glioblastoma, IDH-wildtype	Methylated	None	No	No	0:LIVING	25.6	0:CENSORED	25.6
+P-0006672	glioma_mskcc_2019_17	Male	45	Glioblastoma, IDH-wildtype	Unmethylated	3B	Yes	No	1:DECEASED	15.2	1:PROGRESSION	6.31
+P-0001238	glioma_mskcc_2019_170	Male	74	Glioblastoma, IDH-wildtype	Methylated	4	No	No	0:LIVING	30.9	0:CENSORED	30.9
+P-0002606	glioma_mskcc_2019_171	Male	62	Glioblastoma, IDH-wildtype	Methylated	4	No	No	1:DECEASED	15.4	0:CENSORED	
+P-0001755	glioma_mskcc_2019_172	Male	68	Glioblastoma, IDH-wildtype	Methylated	3B	Yes	No	0:LIVING	4.47		
+P-0003170	glioma_mskcc_2019_173	Female	57	Glioblastoma, IDH-wildtype	Methylated	4	No	No	0:LIVING	29.7	1:PROGRESSION	26.9
+P-0004162	glioma_mskcc_2019_174	Male	52	Glioblastoma, IDH-wildtype	Methylated	None	No	No	0:LIVING	33.7		
+P-0005299	glioma_mskcc_2019_175	Male	54	Glioblastoma, IDH-wildtype	Methylated	4	No	No	0:LIVING	23.0		
+P-0005128	glioma_mskcc_2019_176	Male	68	Glioblastoma, IDH-wildtype	Methylated	3B	Yes	No	0:LIVING	17.5		
+P-0005477	glioma_mskcc_2019_177	Female	44	Glioblastoma, IDH-wildtype	Methylated	3B	Yes	No	0:LIVING	0.66		
+P-0005912	glioma_mskcc_2019_178	Male	56	Glioblastoma, IDH-wildtype	Methylated	2B	Yes	No	0:LIVING	26.3	1:PROGRESSION	7.36
+P-0005603	glioma_mskcc_2019_179	Female	62	Glioblastoma, IDH-wildtype	Methylated	None	No	No	1:DECEASED	14.5		
+P-0008939	glioma_mskcc_2019_18	Female	77	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	15.6		
+P-0006304	glioma_mskcc_2019_180	Female	64	Glioblastoma, IDH-wildtype	Methylated	3B	Yes	No	0:LIVING	22.9	1:PROGRESSION	10.4
+P-0006182	glioma_mskcc_2019_181	Male	26	Glioblastoma, IDH-wildtype	Methylated	2B	Yes	No	0:LIVING	0.79		
+P-0009113	glioma_mskcc_2019_182	Female	61	Glioblastoma, IDH-wildtype	Methylated	4	No	No	0:LIVING	18.2	1:PROGRESSION	17.2
+P-0009048	glioma_mskcc_2019_183	Female	63	Glioblastoma, IDH-wildtype	Methylated	4	No	No	0:LIVING	18.4	1:PROGRESSION	18.0
+P-0011544	glioma_mskcc_2019_184	Male	65	Glioblastoma, IDH-wildtype	Methylated	4	No	No	0:LIVING	17.0	0:CENSORED	17.0
+P-0012982	glioma_mskcc_2019_185	Female	69	Glioblastoma, IDH-wildtype	Methylated	4	No	No	0:LIVING	12.2	1:PROGRESSION	17.5
+P-0012335	glioma_mskcc_2019_186	Female	72	Glioblastoma, IDH-wildtype	Methylated	3B	Yes	No	0:LIVING	15.3	0:CENSORED	15.3
+P-0011460	glioma_mskcc_2019_187	Female	46	Glioblastoma, IDH-wildtype	Methylated	4	No	No	0:LIVING	15.0	0:CENSORED	15.0
+P-0012509	glioma_mskcc_2019_188	Female	54	Glioblastoma, IDH-wildtype	Methylated	4	No	No	0:LIVING	14.4	1:PROGRESSION	7.99
+P-0012689	glioma_mskcc_2019_189	Female	46	Glioblastoma, IDH-wildtype	Methylated	4	No	No	0:LIVING	11.7	1:PROGRESSION	15.8
+P-0012077	glioma_mskcc_2019_19	Male	46	Glioblastoma, IDH-wildtype	Unmethylated	None	No	No	0:LIVING	9.24		
+P-0012244	glioma_mskcc_2019_190	Male	73	Glioblastoma, IDH-wildtype	Methylated	2B	Yes	No	0:LIVING	1.97		
+P-0013044	glioma_mskcc_2019_191	Female	78	Glioblastoma, IDH-wildtype	Methylated	4	No	No	1:DECEASED	3.16		
+TRF014754	glioma_mskcc_2019_192	Male	57	Glioblastoma, IDH-wildtype	Methylated	4	No	Yes	1:DECEASED	34.8	1:PROGRESSION	12.6
+P-0002633	glioma_mskcc_2019_193	Male	47	Glioblastoma, IDH-wildtype	Methylated	3B	Yes	No	1:DECEASED	27.2	1:PROGRESSION	5.65
+TRF034570	glioma_mskcc_2019_194	Male	74	Glioblastoma, IDH-wildtype	Methylated	4	No	No	1:DECEASED	14.5		
+TRF054303	glioma_mskcc_2019_195	Female	53	Glioblastoma, IDH-wildtype	Methylated	None	No	No	1:DECEASED	25.4	1:PROGRESSION	8.32
+P-0008777	glioma_mskcc_2019_196	Male	60	Glioblastoma, IDH-wildtype	Methylated	4	No	Yes	1:DECEASED	21.9		
+P-0001406	glioma_mskcc_2019_197	Female	64	Glioblastoma, IDH-wildtype	Methylated	4	No	No	1:DECEASED	22.2	1:PROGRESSION	19.2
+P-0006363	glioma_mskcc_2019_198	Female	61	Glioblastoma, IDH-wildtype	Methylated	2B	Yes	No	1:DECEASED	26.1		
+P-0003805	glioma_mskcc_2019_199	Male	67	Glioblastoma, IDH-wildtype	Methylated	2B	Yes	No	1:DECEASED	20.6	1:PROGRESSION	17.3
+P-0001843	glioma_mskcc_2019_2	Female	61	Glioblastoma, IDH-wildtype	Unmethylated	2B	Yes	No	0:LIVING	39.4		
+P-0009634	glioma_mskcc_2019_20	Male	58	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	12.1		
+P-0003344	glioma_mskcc_2019_200	Male	73	Glioblastoma, IDH-wildtype	Methylated	3B	Yes	No	1:DECEASED	18.6		
+TRF021879	glioma_mskcc_2019_201	Female	47	Glioblastoma, IDH-wildtype	Methylated	3B	Yes	No	1:DECEASED	11.0	1:PROGRESSION	8.38
+TRF053946	glioma_mskcc_2019_202	Male	51	Glioblastoma, IDH-wildtype	Methylated	4	No	No	1:DECEASED	9.9	0:CENSORED	
+P-0003128	glioma_mskcc_2019_203	Male	55	Glioblastoma, IDH-wildtype	Methylated	2B	Yes	No	1:DECEASED	19.2		
+P-0008649	glioma_mskcc_2019_204	Male	78	Glioblastoma, IDH-wildtype	Methylated	3B	Yes	No	1:DECEASED	5.49		
+P-0003020	glioma_mskcc_2019_205	Female	64	Glioblastoma, IDH-wildtype	Methylated	3B	Yes	No	0:LIVING	43.5		
+P-0001408	glioma_mskcc_2019_206	Male	54	Glioblastoma, IDH-wildtype	Methylated	4	No	No	0:LIVING	41.0		
+P-0006500	glioma_mskcc_2019_207	Male	54	Glioblastoma, IDH-wildtype	Methylated	4	No	No	1:DECEASED	58.4		
+P-0012770	glioma_mskcc_2019_208	Male	60	Glioblastoma, IDH-wildtype	Methylated	4	No	No	1:DECEASED	43.9		
+P-0000500	glioma_mskcc_2019_209	Male	42	Glioblastoma, IDH-wildtype	Methylated	2B	Yes	No	1:DECEASED	52.6		
+P-0008457	glioma_mskcc_2019_21	Male	78	Glioblastoma, IDH-wildtype	Unmethylated	None	No	No	0:LIVING	17.6	1:PROGRESSION	5.82
+TRF020252	glioma_mskcc_2019_210	Female	58	Glioblastoma, IDH-wildtype	Methylated	2B	Yes	No	1:DECEASED	21.7		
+TRF019288	glioma_mskcc_2019_211	Male	53	Glioblastoma, IDH-wildtype	Methylated	None	No	No	1:DECEASED	24.8		
+TRF043500	glioma_mskcc_2019_212	Male	70	Glioblastoma, IDH-wildtype	Methylated	3B	Yes	No	1:DECEASED	49.1		
+TRF047202	glioma_mskcc_2019_213	Male	49	Glioblastoma, IDH-wildtype	Methylated	4	No	No	1:DECEASED	36.1		
+P-0004400	glioma_mskcc_2019_214	Male	52	Glioblastoma, IDH-wildtype	Methylated	3B	Yes	No	1:DECEASED	36.0		
+TRF043644	glioma_mskcc_2019_215	Male	53	Glioblastoma, IDH-wildtype	Methylated	4	No	Yes	1:DECEASED	60.1		
+P-0000760	glioma_mskcc_2019_216	Male	68	Glioblastoma, IDH-wildtype	Methylated	4	No	No	1:DECEASED	59.4		
+P-0003636	glioma_mskcc_2019_217	Female	34	Glioblastoma, IDH-wildtype		4	No	No	0:LIVING	188.0	1:PROGRESSION	6.61
+P-0012835	glioma_mskcc_2019_218	Female	55	Glioblastoma, IDH-wildtype		4	No	No	1:DECEASED	92.3	1:PROGRESSION	8.35
+P-0007018	glioma_mskcc_2019_219	Male	50	Glioblastoma, IDH-wildtype	Methylated	2B	Yes	Yes	0:LIVING	82.0	1:PROGRESSION	6.25
+P-0006879	glioma_mskcc_2019_22	Male	65	Glioblastoma, IDH-wildtype	Unmethylated	3B	Yes	No	0:LIVING	23.2	1:PROGRESSION	9.11
+TRF048714	glioma_mskcc_2019_220	Male	53	Glioblastoma, IDH-wildtype		2B	Yes	Yes	0:LIVING	65.1	1:PROGRESSION	6.74
+TRF070135	glioma_mskcc_2019_221	Male	57	Glioblastoma, IDH-wildtype		None	No	No	0:LIVING	34.6		
+TRF024470	glioma_mskcc_2019_222	Male	37	Glioblastoma, IDH-wildtype		None	No	No	1:DECEASED	18.0	1:PROGRESSION	9.47
+TRF042339	glioma_mskcc_2019_223	Male	74	Glioblastoma, IDH-wildtype		None	No	No	0:LIVING	11.0	1:PROGRESSION	9.8
+TRF036869	glioma_mskcc_2019_224	Male	49	Glioblastoma, IDH-wildtype		4	No	No	0:LIVING	11.3	1:PROGRESSION	6.08
+P-0002194	glioma_mskcc_2019_225	Female	65	Glioblastoma, IDH-wildtype		2B	Yes	No	1:DECEASED	28.4		
+P-0001487	glioma_mskcc_2019_226	Male	51	Glioblastoma, IDH-wildtype		2B	Yes	No	0:LIVING	50.1	1:PROGRESSION	44.2
+TRF054406	glioma_mskcc_2019_227	Female	61	Glioblastoma, IDH-wildtype		4	No	No	0:LIVING	7.1	1:PROGRESSION	6.9
+P-0015669	glioma_mskcc_2019_228	Male	51	Glioblastoma, IDH-wildtype		4	No	No	0:LIVING	26.6	1:PROGRESSION	7.69
+P-0000677	glioma_mskcc_2019_229	Male	47	Glioblastoma, IDH-wildtype		4	No	Yes	1:DECEASED	24.2		
+P-0007989	glioma_mskcc_2019_23	Male	41	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	0:LIVING	7.82		
+P-0009587	glioma_mskcc_2019_230	Female	67	Glioblastoma, IDH-wildtype	Methylated	4	No	No	0:LIVING	43.5	1:PROGRESSION	15.1
+P-0001731	glioma_mskcc_2019_231	Male	27	Glioblastoma, IDH-wildtype	Unmethylated	2B	Yes	No	0:LIVING	34.0	1:PROGRESSION	6.41
+P-0005870	glioma_mskcc_2019_232	Male	37	Glioblastoma, IDH-wildtype		4	No	No	1:DECEASED	21.2	1:PROGRESSION	8.98
+P-0005701	glioma_mskcc_2019_233	Male	54	Glioblastoma, IDH-wildtype		2B	Yes	No	1:DECEASED	18.8		
+P-0002754	glioma_mskcc_2019_234	Female	52	Glioblastoma, IDH-wildtype	Unmethylated	3B	Yes	No	1:DECEASED	22.6	1:PROGRESSION	5.85
+P-0004778	glioma_mskcc_2019_235	Male	45	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	23.5	1:PROGRESSION	7.36
+P-0005615	glioma_mskcc_2019_236	Male	61	Glioblastoma, IDH-wildtype	Methylated	4	No	No	1:DECEASED	16.4	1:PROGRESSION	7.4
+P-0004038	glioma_mskcc_2019_237	Female	83	Glioblastoma, IDH-wildtype		4	No	No	0:LIVING	25.1	1:PROGRESSION	15.2
+P-0001276	glioma_mskcc_2019_238	Male	64	Glioblastoma, IDH-wildtype		2B	Yes	Yes	1:DECEASED	32.0		
+P-0004119	glioma_mskcc_2019_239	Male	45	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	0:LIVING	58.6	1:PROGRESSION	41.3
+P-0011580	glioma_mskcc_2019_24	Male	66	Glioblastoma, IDH-wildtype	Unmethylated	3B	Yes	No	1:DECEASED	9.5		
+P-0009415	glioma_mskcc_2019_240	Male	51	Glioblastoma, IDH-wildtype		4	No	No	0:LIVING	5.29		
+P-0010911	glioma_mskcc_2019_241	Male	70	Glioblastoma, IDH-wildtype		4	No	No	1:DECEASED	25.5	1:PROGRESSION	7.27
+P-0011351	glioma_mskcc_2019_242	Female	73	Glioblastoma, IDH-wildtype		4	No	No	0:LIVING	3.62		
+P-0003827	glioma_mskcc_2019_243	Female	51	Glioblastoma, IDH-wildtype	Unmethylated	2B	Yes	No	0:LIVING	70.8	1:PROGRESSION	59.1
+P-0008656	glioma_mskcc_2019_244	Female	52	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	0:LIVING	22.1	1:PROGRESSION	11.0
+P-0006876	glioma_mskcc_2019_245	Male	61	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	21.5	1:PROGRESSION	8.32
+P-0007880	glioma_mskcc_2019_246	Male	41	Glioblastoma, IDH-wildtype		3B	Yes	No	1:DECEASED	20.9	1:PROGRESSION	12.2
+P-0001326	glioma_mskcc_2019_247	Female	64	Glioblastoma, IDH-wildtype		2B	Yes	Yes	0:LIVING	35.0	1:PROGRESSION	23.3
+P-0005334	glioma_mskcc_2019_248	Female	58	Glioblastoma, IDH-wildtype		4	No	No	1:DECEASED	6.97		
+P-0007780	glioma_mskcc_2019_249	Male	67	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	0:LIVING	8.61	0:CENSORED	8.61
+P-0006846	glioma_mskcc_2019_25	Female	65	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	13.5	1:PROGRESSION	7.63
+TRF102171	glioma_mskcc_2019_250	Female	55	Glioblastoma, IDH-wildtype		4	No	No	1:DECEASED	41.2	1:PROGRESSION	19.9
+P-0003694	glioma_mskcc_2019_251	Female	66	Glioblastoma, IDH-wildtype		4	No	No	0:LIVING	31.8	0:CENSORED	31.8
+TRF047623	glioma_mskcc_2019_252	Female	64	Glioblastoma, IDH-wildtype		None	No	No	0:LIVING	40.9	0:CENSORED	40.9
+TRF050678	glioma_mskcc_2019_253	Male	69	Glioblastoma, IDH-wildtype	Methylated	4	No	No	0:LIVING	39.8	0:CENSORED	39.8
+TRF044142	glioma_mskcc_2019_254	Male	33	Glioblastoma, IDH-wildtype		2B	Yes	No	0:LIVING	0.82		
+TRF044571	glioma_mskcc_2019_255	Male	56	Glioblastoma, IDH-wildtype	Unmethylated	3B	Yes	No	0:LIVING	38.8	1:PROGRESSION	30.0
+P-0000818	glioma_mskcc_2019_256	Male	33	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	0:LIVING	37.3	1:PROGRESSION	28.1
+TRF048715	glioma_mskcc_2019_257	Male	69	Glioblastoma, IDH-wildtype		2B	Yes	No	0:LIVING	0.39		
+P-0001281	glioma_mskcc_2019_258	Male	52	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	0:LIVING	36.5	1:PROGRESSION	31.3
+TRF051753	glioma_mskcc_2019_259	Male	53	Glioblastoma, IDH-wildtype		4	No	No	0:LIVING	35.6		
+P-0007503	glioma_mskcc_2019_26	Male	90	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	20.5	1:PROGRESSION	8.65
+P-0002396	glioma_mskcc_2019_260	Female	60	Glioblastoma, IDH-wildtype		3B	Yes	No	0:LIVING	17.7	0:CENSORED	17.7
+P-0002083	glioma_mskcc_2019_261	Female	54	Glioblastoma, IDH-wildtype		4	No	No	0:LIVING	0.46		
+P-0002860	glioma_mskcc_2019_262	Male	55	Glioblastoma, IDH-wildtype		3B	Yes	No	1:DECEASED	19.9		
+P-0002539	glioma_mskcc_2019_263	Male	61	Glioblastoma, IDH-wildtype		3B	Yes	No	0:LIVING	31.3	0:CENSORED	31.3
+P-0003781	glioma_mskcc_2019_264	Male	57	Glioblastoma, IDH-wildtype		3B	Yes	No	0:LIVING	31.2		
+P-0007751	glioma_mskcc_2019_265	Male	73	Glioblastoma, IDH-wildtype		3B	Yes	No	0:LIVING	26.1	0:CENSORED	26.1
+P-0006022	glioma_mskcc_2019_266	Male	68	Glioblastoma, IDH-wildtype		4	No	No	0:LIVING	3.29		
+P-0010924	glioma_mskcc_2019_267	Female	61	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	0:LIVING	5.1	1:PROGRESSION	7.0
+P-0008770	glioma_mskcc_2019_268	Male	51	Glioblastoma, IDH-wildtype		4	No	No	0:LIVING	0.92		
+P-0007104	glioma_mskcc_2019_269	Male	69	Glioblastoma, IDH-wildtype	Unmethylated	None	No	No	0:LIVING	22.8	0:CENSORED	22.8
+P-0011202	glioma_mskcc_2019_27	Male	47	Glioblastoma, IDH-wildtype	Unmethylated	4	No	Yes	0:LIVING	10.8	1:PROGRESSION	16.7
+P-0007337	glioma_mskcc_2019_270	Female	75	Glioblastoma, IDH-wildtype		2B	Yes	No	1:DECEASED	7.92		
+P-0007693	glioma_mskcc_2019_271	Male	54	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	17.5	1:PROGRESSION	6.9
+P-0009612	glioma_mskcc_2019_272	Female	80	Glioblastoma, IDH-wildtype		4	No	No	0:LIVING	3.98		
+P-0011473	glioma_mskcc_2019_273	Male	75	Glioblastoma, IDH-wildtype	Methylated	2B	Yes	No	0:LIVING	19.1	1:PROGRESSION	7.4
+P-0011080	glioma_mskcc_2019_274	Female	63	Glioblastoma, IDH-wildtype	Methylated	3B	Yes	No	0:LIVING	16.4		
+P-0009439	glioma_mskcc_2019_275	Female	51	Glioblastoma, IDH-wildtype		2B	Yes	No	0:LIVING	3.91		
+P-0010374	glioma_mskcc_2019_276	Female	61	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	0:LIVING	13.6	0:CENSORED	13.6
+P-0012646	glioma_mskcc_2019_277	Male	60	Glioblastoma, IDH-wildtype	Methylated	1	Yes	No	0:LIVING	16.0	1:PROGRESSION	16.0
+P-0011213	glioma_mskcc_2019_278	Male	23	Glioblastoma, IDH-wildtype		4	No	No	1:DECEASED	13.1	1:PROGRESSION	5.33
+P-0012830	glioma_mskcc_2019_279	Male	73	Glioblastoma, IDH-wildtype		None	No	No	1:DECEASED	11.0	1:PROGRESSION	8.65
+P-0007756	glioma_mskcc_2019_28	Female	66	Glioblastoma, IDH-wildtype	Unmethylated	2B	Yes	No	1:DECEASED	15.4	1:PROGRESSION	7.46
+P-0014726	glioma_mskcc_2019_280	Female	25	Glioblastoma, IDH-wildtype		None	No	Yes	0:LIVING	18.5	1:PROGRESSION	7.86
+TRF011251	glioma_mskcc_2019_281	Male	53	Glioblastoma, IDH-wildtype		4	No	No	1:DECEASED	24.0	1:PROGRESSION	18.9
+TRF036890	glioma_mskcc_2019_282	Female	65	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	21.1		
+glioma_mskcc_2019_283	glioma_mskcc_2019_283	Male	49	Glioblastoma, IDH-wildtype		4	No	No	1:DECEASED	17.1		
+TRF042199	glioma_mskcc_2019_284	Female	47	Glioblastoma, IDH-wildtype		None	No	No	1:DECEASED	32.0		
+TRF044293	glioma_mskcc_2019_285	Male	42	Glioblastoma, IDH-wildtype		2B	Yes	Yes	1:DECEASED	28.3	1:PROGRESSION	5.26
+TRF050394	glioma_mskcc_2019_286	Male	61	Glioblastoma, IDH-wildtype		2B	Yes	No	1:DECEASED	24.8	1:PROGRESSION	19.4
+P-0000841	glioma_mskcc_2019_287	Female	64	Glioblastoma, IDH-wildtype		2B	Yes	No	1:DECEASED	25.7	1:PROGRESSION	11.1
+TRF045887	glioma_mskcc_2019_288	Male	64	Glioblastoma, IDH-wildtype		4	No	No	1:DECEASED	15.1	1:PROGRESSION	7.3
+P-0001052	glioma_mskcc_2019_289	Female	63	Glioblastoma, IDH-wildtype	Unmethylated	3B	Yes	No	1:DECEASED	27.4		
+P-0008306	glioma_mskcc_2019_29	Male	61	Glioblastoma, IDH-wildtype	Unmethylated	None	No	No	1:DECEASED	21.8		
+TRF040129	glioma_mskcc_2019_290	Female	61	Glioblastoma, IDH-wildtype		4	No	No	1:DECEASED	16.0		
+TRF051443	glioma_mskcc_2019_291	Female	71	Glioblastoma, IDH-wildtype		4	No	No	1:DECEASED	11.6	1:PROGRESSION	6.51
+TRF036780	glioma_mskcc_2019_292	Male	70	Glioblastoma, IDH-wildtype		None	No	No	1:DECEASED	12.8	1:PROGRESSION	5.75
+TRF030611	glioma_mskcc_2019_293	Male	41	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	29.6	1:PROGRESSION	9.34
+TRF064641	glioma_mskcc_2019_294	Female	60	Glioblastoma, IDH-wildtype	Methylated	3B	Yes	No	1:DECEASED	8.45		
+TRF078041	glioma_mskcc_2019_295	Female	71	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	12.0		
+P-0003424	glioma_mskcc_2019_296	Female	76	Glioblastoma, IDH-wildtype		2B	Yes	No	1:DECEASED	6.35		
+P-0002833	glioma_mskcc_2019_297	Male	22	Glioblastoma, IDH-wildtype	Methylated	2B	Yes	Yes	1:DECEASED	14.0	1:PROGRESSION	7.89
+TRF061165	glioma_mskcc_2019_298	Female	67	Glioblastoma, IDH-wildtype		None	No	No	1:DECEASED	10.2		
+TRF056390	glioma_mskcc_2019_299	Female	50	Glioblastoma, IDH-wildtype		4	No	No	1:DECEASED	22.8	1:PROGRESSION	15.4
+TRF034423	glioma_mskcc_2019_3	Male	67	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	0:LIVING	12.2	1:PROGRESSION	8.32
+P-0010713	glioma_mskcc_2019_30	Male	50	Glioblastoma, IDH-wildtype	Unmethylated	2B	Yes	No	0:LIVING	5.56		
+TRF077655	glioma_mskcc_2019_300	Female	42	Glioblastoma, IDH-wildtype		2B	Yes	Yes	1:DECEASED	21.7	1:PROGRESSION	9.93
+P-0004035	glioma_mskcc_2019_301	Female	33	Glioblastoma, IDH-wildtype		3B	Yes	No	1:DECEASED	11.1		
+TRF041606	glioma_mskcc_2019_302	Female	70	Glioblastoma, IDH-wildtype		4	No	No	1:DECEASED	18.2	1:PROGRESSION	10.5
+P-0006361	glioma_mskcc_2019_303	Male	68	Glioblastoma, IDH-wildtype		4	No	No	1:DECEASED	15.6		
+P-0004853	glioma_mskcc_2019_304	Female	63	Glioblastoma, IDH-wildtype		2B	Yes	No	1:DECEASED	12.1		
+P-0004510	glioma_mskcc_2019_305	Female	59	Glioblastoma, IDH-wildtype		4	No	No	1:DECEASED	24.5	1:PROGRESSION	6.05
+P-0004807	glioma_mskcc_2019_306	Male	65	Glioblastoma, IDH-wildtype		4	No	No	1:DECEASED	17.1	1:PROGRESSION	10.9
+P-0002870	glioma_mskcc_2019_307	Female	50	Glioblastoma, IDH-wildtype		2B	Yes	No	1:DECEASED	15.9		
+TRF065229	glioma_mskcc_2019_308	Male	66	Glioblastoma, IDH-wildtype	Unmethylated	None	No	No	1:DECEASED	13.2	1:PROGRESSION	4.96
+P-0004338	glioma_mskcc_2019_309	Female	55	Glioblastoma, IDH-wildtype		2B	Yes	No	1:DECEASED	12.2	1:PROGRESSION	6.35
+P-0012002	glioma_mskcc_2019_31	Female	66	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	7.5		
+P-0002647	glioma_mskcc_2019_310	Male	42	Glioblastoma, IDH-wildtype		4	No	No	1:DECEASED	16.3	1:PROGRESSION	8.65
+P-0010635	glioma_mskcc_2019_311	Female	60	Glioblastoma, IDH-wildtype	Unmethylated	2B	Yes	Yes	1:DECEASED	17.1		
+P-0002316	glioma_mskcc_2019_312	Male	52	Glioblastoma, IDH-wildtype	Unmethylated	2B	Yes	No	1:DECEASED	28.2	1:PROGRESSION	22.3
+P-0009436	glioma_mskcc_2019_313	Female	58	Glioblastoma, IDH-wildtype		4	No	No	1:DECEASED	24.7		
+P-0008258	glioma_mskcc_2019_314	Female	56	Glioblastoma, IDH-wildtype		4	No	No	1:DECEASED	10.3	1:PROGRESSION	8.22
+P-0010753	glioma_mskcc_2019_315	Female	38	Glioblastoma, IDH-wildtype		None	No	No	1:DECEASED	19.6	1:PROGRESSION	9.04
+P-0007991	glioma_mskcc_2019_316	Female	72	Glioblastoma, IDH-wildtype	Unmethylated	2B	Yes	No	1:DECEASED	11.8	1:PROGRESSION	8.78
+TRF021884	glioma_mskcc_2019_317	Male	64	Glioblastoma, IDH-wildtype		4	No	No	1:DECEASED	7.4		
+TRF029659	glioma_mskcc_2019_318	Male	72	Glioblastoma, IDH-wildtype		2B	Yes	No	1:DECEASED	12.2		
+P-0000960	glioma_mskcc_2019_319	Male	52	Glioblastoma, IDH-wildtype		2B	Yes	No	1:DECEASED	17.0		
+P-0010556	glioma_mskcc_2019_32	Male	50	Glioblastoma, IDH-wildtype	Unmethylated	2B	Yes	No	0:LIVING	16.2	1:PROGRESSION	5.79
+TRF060980	glioma_mskcc_2019_320	Male	72	Glioblastoma, IDH-wildtype	Unmethylated	None	No	No	1:DECEASED	13.4		
+TRF052688	glioma_mskcc_2019_321	Male	61	Glioblastoma, IDH-wildtype		4	No	No	1:DECEASED	0.82		
+TRF077654	glioma_mskcc_2019_322	Male	55	Glioblastoma, IDH-wildtype	Unmethylated	3B	Yes	No	1:DECEASED	19.9	1:PROGRESSION	5.88
+P-0002347	glioma_mskcc_2019_323	Female	65	Glioblastoma, IDH-wildtype		3B	Yes	No	1:DECEASED	6.61	1:PROGRESSION	5.52
+P-0004245	glioma_mskcc_2019_324	Female	74	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	15.5		
+P-0005852	glioma_mskcc_2019_325	Male	75	Glioblastoma, IDH-wildtype		4	No	No	1:DECEASED	13.0	1:PROGRESSION	7.33
+P-0010302	glioma_mskcc_2019_326	Male	68	Glioblastoma, IDH-wildtype	Methylated	None	No	No	0:LIVING	17.0		
+P-0008677	glioma_mskcc_2019_327	Female	71	Glioblastoma, IDH-wildtype	Unmethylated	2B	Yes	No	0:LIVING	2.2		
+P-0005472	glioma_mskcc_2019_328	Female	62	Glioblastoma, IDH-wildtype		2B	Yes	No	0:LIVING	176.0		
+P-0006532	glioma_mskcc_2019_329	Female	30	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	0:LIVING	38.7		
+P-0008166	glioma_mskcc_2019_33	Male	63	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	16.6	1:PROGRESSION	7.13
+P-0007917	glioma_mskcc_2019_330	Male	55	Glioblastoma, IDH-wildtype	Methylated	2B	Yes	No	1:DECEASED	76.2		
+P-0004971	glioma_mskcc_2019_331	Male	44	Glioblastoma, IDH-wildtype	Methylated	3B	Yes	No	1:DECEASED	26.5		
+P-0002862	glioma_mskcc_2019_332	Male	57	Glioblastoma, IDH-wildtype		2B	Yes	No	0:LIVING	36.8		
+P-0001471	glioma_mskcc_2019_333	Female	20	Glioblastoma, IDH-wildtype	Methylated	4	No	No	0:LIVING	25.4		
+P-0011503	glioma_mskcc_2019_334	Female	65	Glioblastoma, IDH-wildtype	Methylated	3B	Yes	No	0:LIVING	39.1		
+P-0002138	glioma_mskcc_2019_335	Female	67	Glioblastoma, IDH-wildtype		4	No	No	1:DECEASED	34.7		
+P-0003900	glioma_mskcc_2019_336	Female	63	Glioblastoma, IDH-wildtype	Methylated	2B	Yes	No	1:DECEASED	69.9		
+P-0001654	glioma_mskcc_2019_337	Female	40	Glioblastoma, IDH-wildtype	Unmethylated	None	No	No	1:DECEASED	21.7		
+P-0003350	glioma_mskcc_2019_338	Male	55	Glioblastoma, IDH-wildtype		4	No	No	1:DECEASED	64.3		
+P-0008927	glioma_mskcc_2019_339	Female	48	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	15.3		
+P-0008257	glioma_mskcc_2019_34	Male	66	Glioblastoma, IDH-wildtype	Unmethylated	2B	Yes	No	1:DECEASED	10.8	1:PROGRESSION	7.4
+P-0012654	glioma_mskcc_2019_340	Female	79	Glioblastoma, IDH-wildtype		3B	Yes	No	1:DECEASED	19.7		
+P-0004584	glioma_mskcc_2019_341	Female	72	Anaplastic astrocytoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	58.5	1:PROGRESSION	29.6
+TRF049396	glioma_mskcc_2019_342	Female	47	Anaplastic astrocytoma, IDH-wildtype	Unmethylated	3B	Yes	No	0:LIVING	27.4	1:PROGRESSION	5.82
+P-0000748	glioma_mskcc_2019_343	Male	70	Anaplastic astrocytoma, IDH-wildtype		3B	Yes	No	1:DECEASED	37.9	1:PROGRESSION	11.2
+P-0004712	glioma_mskcc_2019_344	Male	48	Anaplastic astrocytoma, IDH-wildtype		None	No	No	0:LIVING	8.75		
+P-0003598	glioma_mskcc_2019_345	Female	46	Anaplastic astrocytoma, IDH-wildtype	Methylated	2B	Yes	Yes	1:DECEASED	43.5	1:PROGRESSION	19.6
+P-0004991	glioma_mskcc_2019_346	Male	51	Anaplastic astrocytoma, IDH-wildtype	Unmethylated	3B	Yes	No	0:LIVING	9.37	1:PROGRESSION	6.21
+P-0007397	glioma_mskcc_2019_347	Male	71	Anaplastic astrocytoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	21.2	1:PROGRESSION	6.28
+TRF050931	glioma_mskcc_2019_348	Male	51	Anaplastic astrocytoma, IDH-wildtype	Methylated	4	No	No	1:DECEASED	38.7	1:PROGRESSION	28.7
+P-0009998	glioma_mskcc_2019_349	Female	43	Anaplastic astrocytoma, IDH-wildtype		4	No	No	1:DECEASED	22.7	1:PROGRESSION	5.75
+P-0010380	glioma_mskcc_2019_35	Male	74	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	11.0	1:PROGRESSION	4.87
+P-0009873	glioma_mskcc_2019_350	Female	46	Anaplastic astrocytoma, IDH-wildtype		2B	Yes	No	1:DECEASED	19.4		
+P-0005303	glioma_mskcc_2019_351	Male	40	Anaplastic astrocytoma, IDH-wildtype	Unmethylated	4	No	No	0:LIVING	24.5	1:PROGRESSION	7.79
+P-0005882	glioma_mskcc_2019_352	Male	56	Anaplastic astrocytoma, IDH-wildtype	Unmethylated	2B	Yes	No	1:DECEASED	16.7	1:PROGRESSION	8.02
+P-0002181	glioma_mskcc_2019_353	Male	48	Anaplastic astrocytoma, IDH-wildtype	Methylated	2B	Yes	No	1:DECEASED	27.8	1:PROGRESSION	5.26
+P-0005547	glioma_mskcc_2019_354	Male	54	Anaplastic astrocytoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	19.4	1:PROGRESSION	9.63
+P-0010787	glioma_mskcc_2019_355	Male	60	Anaplastic astrocytoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	13.2	1:PROGRESSION	7.4
+P-0009453	glioma_mskcc_2019_356	Female	64	Anaplastic astrocytoma, IDH-wildtype	Unmethylated	2B	Yes	No	1:DECEASED	17.1	1:PROGRESSION	5.56
+P-0006667	glioma_mskcc_2019_357	Male	58	Anaplastic astrocytoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	18.0	1:PROGRESSION	11.2
+P-0007124	glioma_mskcc_2019_358	Male	40	Anaplastic astrocytoma, IDH-wildtype	Unmethylated	2B	Yes	No	1:DECEASED	13.8	1:PROGRESSION	11.0
+P-0011008	glioma_mskcc_2019_359	Male	74	Anaplastic astrocytoma, IDH-wildtype	Unmethylated	None	No	No	1:DECEASED	9.47	1:PROGRESSION	7.79
+P-0010534	glioma_mskcc_2019_36	Male	59	Glioblastoma, IDH-wildtype	Unmethylated	3B	Yes	No	1:DECEASED	19.0	1:PROGRESSION	12.8
+P-0012692	glioma_mskcc_2019_360	Male	57	Anaplastic astrocytoma, IDH-wildtype	Unmethylated	2B	Yes	No	1:DECEASED	7.27		
+P-0004233	glioma_mskcc_2019_361	Female	45	Anaplastic astrocytoma, IDH-wildtype	Methylated	2B	Yes	No	0:LIVING	24.4	0:CENSORED	24.4
+TRF020703	glioma_mskcc_2019_362	Female	41	Anaplastic astrocytoma, IDH-wildtype	Methylated	2B	Yes	No	0:LIVING	39.5	1:PROGRESSION	38.9
+TRF050912	glioma_mskcc_2019_363	Female	32	Anaplastic astrocytoma, IDH-wildtype		None	No	No	0:LIVING	37.6	0:CENSORED	35.5
+TRF059703	glioma_mskcc_2019_364	Male	69	Anaplastic astrocytoma, IDH-wildtype		None	No	No	0:LIVING	1.02		
+P-0002656	glioma_mskcc_2019_365	Female	32	Anaplastic astrocytoma, IDH-wildtype		4	No	No	0:LIVING	4.6	0:CENSORED	4.6
+P-0004846	glioma_mskcc_2019_366	Male	54	Anaplastic astrocytoma, IDH-wildtype	Unmethylated	2B	Yes	No	0:LIVING	20.3	1:PROGRESSION	29.7
+P-0005012	glioma_mskcc_2019_367	Male	59	Anaplastic astrocytoma, IDH-wildtype	Methylated	4	No	No	0:LIVING	25.2	0:CENSORED	25.2
+P-0006465	glioma_mskcc_2019_368	Male	69	Anaplastic astrocytoma, IDH-wildtype	Unmethylated	None	No	No	1:DECEASED	5.98		
+P-0011354	glioma_mskcc_2019_369	Male	80	Anaplastic astrocytoma, IDH-wildtype	Methylated	4	No	No	1:DECEASED	15.6	0:CENSORED	4.96
+P-0009451	glioma_mskcc_2019_37	Male	68	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	13.5	1:PROGRESSION	5.49
+P-0005886	glioma_mskcc_2019_370	Male	56	Anaplastic astrocytoma, IDH-wildtype	Unmethylated	2B	Yes	No	1:DECEASED	18.7	1:PROGRESSION	13.8
+P-0008293	glioma_mskcc_2019_371	Male	36	Anaplastic astrocytoma, IDH-wildtype		None	No	No	0:LIVING	21.0	0:CENSORED	21.0
+P-0007339	glioma_mskcc_2019_372	Male	58	Diffuse astrocytoma, IDH-wildtype		None	No	No	0:LIVING	22.2	0:CENSORED	22.2
+P-0007897	glioma_mskcc_2019_373	Male	60	Anaplastic astrocytoma, IDH-wildtype	Methylated	4	No	No	1:DECEASED	25.6	1:PROGRESSION	17.5
+P-0012794	glioma_mskcc_2019_374	Male	59	Anaplastic astrocytoma, IDH-wildtype	Methylated	4	No	No	0:LIVING	9.44		
+P-0009921	glioma_mskcc_2019_375	Male	48	Anaplastic astrocytoma, IDH-wildtype	Unmethylated	2B	Yes	No	0:LIVING	6.18	1:PROGRESSION	5.82
+P-0009852	glioma_mskcc_2019_376	Female	75	Anaplastic astrocytoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	12.9		
+P-0011505	glioma_mskcc_2019_377	Female	68	Anaplastic astrocytoma, IDH-wildtype	Methylated	2B	Yes	No	0:LIVING	12.8	1:PROGRESSION	14.9
+P-0013057	glioma_mskcc_2019_378	Male	68	Anaplastic astrocytoma, IDH-wildtype	Methylated	4	No	No	0:LIVING	12.1	1:PROGRESSION	17.1
+P-0011390	glioma_mskcc_2019_379	Male	58	Anaplastic astrocytoma, IDH-wildtype	Unmethylated	4	No	No	0:LIVING	2.79	1:PROGRESSION	12.8
+P-0011119	glioma_mskcc_2019_38	Female	65	Glioblastoma, IDH-wildtype	Unmethylated	4	No	Yes	1:DECEASED	20.8	1:PROGRESSION	6.87
+P-0011207	glioma_mskcc_2019_380	Male	64	Anaplastic astrocytoma, IDH-wildtype	Unmethylated	4	No	No	0:LIVING	0.26	0:CENSORED	0.26
+P-0011383	glioma_mskcc_2019_381	Female	50	Anaplastic astrocytoma, IDH-wildtype	Unmethylated	2B	Yes	No	0:LIVING	2.76		
+P-0012536	glioma_mskcc_2019_382	Male	80	Anaplastic astrocytoma, IDH-wildtype	Methylated	4	No	No	0:LIVING	9.04	1:PROGRESSION	15.2
+P-0012303	glioma_mskcc_2019_383	Female	55	Anaplastic astrocytoma, IDH-wildtype	Unmethylated	4	No	No	0:LIVING	2.53		
+TRF016430	glioma_mskcc_2019_384	Female	34	Anaplastic astrocytoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	31.8	1:PROGRESSION	6.31
+P-0001049	glioma_mskcc_2019_385	Male	58	Gliosarcoma		2B	Yes	No	1:DECEASED	17.4		
+TRF037647	glioma_mskcc_2019_386	Male	51	Anaplastic astrocytoma, IDH-wildtype		4	No	No	1:DECEASED	33.6	1:PROGRESSION	18.2
+TRF030125	glioma_mskcc_2019_387	Female	65	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	18.4		
+glioma_mskcc_2019_388	glioma_mskcc_2019_388	Male	56	Anaplastic astrocytoma, IDH-wildtype		2B	Yes	Yes	1:DECEASED	21.9	1:PROGRESSION	14.1
+TRF065699	glioma_mskcc_2019_389	Female	50	Anaplastic astrocytoma, IDH-wildtype	Unmethylated	None	No	No	1:DECEASED	8.52	1:PROGRESSION	6.28
+P-0009320	glioma_mskcc_2019_39	Female	61	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	11.3	1:PROGRESSION	8.88
+P-0004676	glioma_mskcc_2019_390	Male	44	Anaplastic astrocytoma, IDH-wildtype		2B	Yes	No	1:DECEASED	15.6	1:PROGRESSION	8.68
+P-0008598	glioma_mskcc_2019_391	Male	65	Anaplastic astrocytoma, IDH-wildtype		4	No	No	1:DECEASED	5.16		
+P-0009327	glioma_mskcc_2019_392	Male	51	Anaplastic astrocytoma, IDH-wildtype		2B	Yes	No	1:DECEASED	1.51	1:PROGRESSION	1.51
+P-0012949	glioma_mskcc_2019_393	Male	61	Anaplastic astrocytoma, IDH-wildtype		2B	Yes	No	1:DECEASED	2.2	1:PROGRESSION	2.2
+P-0000657	glioma_mskcc_2019_394	Male	51	Anaplastic astrocytoma, IDH-wildtype	Methylated	4	No	No	1:DECEASED	64.1		
+P-0000679	glioma_mskcc_2019_395	Female	59	Anaplastic astrocytoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	22.3		
+TRF042508	glioma_mskcc_2019_396	Female	64	Anaplastic astrocytoma, IDH-wildtype		2B	Yes	No	1:DECEASED	10.8	1:PROGRESSION	5.42
+P-0004694	glioma_mskcc_2019_397	Male	66	Anaplastic astrocytoma, IDH-wildtype	Methylated	3B	Yes	No	1:DECEASED	34.4	1:PROGRESSION	22.7
+P-0004427	glioma_mskcc_2019_398	Male	19	Anaplastic astrocytoma, IDH-wildtype		None	No	No	1:DECEASED	342.0		
+P-0008923	glioma_mskcc_2019_399	Female	46	Anaplastic astrocytoma, IDH-wildtype	Methylated	2B	Yes	Yes	1:DECEASED	28.9		
+P-0008341	glioma_mskcc_2019_4	Female	73	Glioblastoma, IDH-wildtype	Unmethylated	None	No	No	0:LIVING	40.0		
+TRF030605	glioma_mskcc_2019_40	Female	66	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	0:LIVING	50.1		
+P-0001971	glioma_mskcc_2019_400	Female	62	Diffuse astrocytoma, IDH-wildtype	Unmethylated	None	No	No	0:LIVING	33.2	1:PROGRESSION	7.56
+P-0006428	glioma_mskcc_2019_401	Female	21	Diffuse astrocytoma, IDH-wildtype	Unmethylated	3B	Yes	No	1:DECEASED	24.2		
+P-0010402	glioma_mskcc_2019_402	Male	54	Diffuse astrocytoma, IDH-wildtype	Unmethylated	3B	Yes	No	0:LIVING	19.4	0:CENSORED	19.4
+P-0002853	glioma_mskcc_2019_403	Male	26	Diffuse astrocytoma, IDH-wildtype		None	No	No	0:LIVING	4.73	0:CENSORED	4.73
+P-0007073	glioma_mskcc_2019_404	Male	74	Diffuse astrocytoma, IDH-wildtype	Unmethylated	None	No	No	0:LIVING	20.8	0:CENSORED	20.8
+TRF067088	glioma_mskcc_2019_405	Male	80	Diffuse astrocytoma, IDH-wildtype	Unmethylated	3B	Yes	No	1:DECEASED	8.78		
+P-0009662	glioma_mskcc_2019_406	Male	58	Diffuse astrocytoma, IDH-wildtype		None	No	No	0:LIVING	124.0	0:CENSORED	124.0
+P-0000918	glioma_mskcc_2019_407	Male	65	Diffuse astrocytoma, IDH-wildtype		4	No	No	0:LIVING	13.4		
+TRF047834	glioma_mskcc_2019_408	Female	51	Diffuse astrocytoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	53.3	1:PROGRESSION	25.3
+P-0013104	glioma_mskcc_2019_409	Female	60	Diffuse astrocytoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	15.8		
+P-0002376	glioma_mskcc_2019_41	Male	26	Glioblastoma, IDH-wildtype	Unmethylated	None	No	No	0:LIVING	18.5		
+TRF017822	glioma_mskcc_2019_410	Female	66	Diffuse astrocytoma, IDH-wildtype	Unmethylated	3B	Yes	Yes	1:DECEASED	25.0		
+P-0001914	glioma_mskcc_2019_411	Female	54	Diffuse astrocytoma, IDH-wildtype	Unmethylated	None	No	No	1:DECEASED	31.7	1:PROGRESSION	16.8
+P-0007833	glioma_mskcc_2019_412	Female	49	Diffuse astrocytoma, IDH-wildtype		4	No	No	1:DECEASED	41.0		
+P-0003458	glioma_mskcc_2019_413	Female	62	Diffuse astrocytoma, IDH-wildtype	Methylated	4	No	No	1:DECEASED	43.6		
+P-0003041	glioma_mskcc_2019_414	Female	30	Diffuse astrocytoma, IDH-mutant	Methylated	None	No	No	0:LIVING	228.0	1:PROGRESSION	191.0
+TRF079056	glioma_mskcc_2019_415	Male	28	Glioblastoma, IDH-mutant		None	No	No	0:LIVING	12.1	1:PROGRESSION	12.1
+P-0001730	glioma_mskcc_2019_416	Female	24	Glioblastoma, IDH-mutant	Unmethylated	None	No	No	0:LIVING	33.4	0:CENSORED	34.4
+P-0004857	glioma_mskcc_2019_417	Male	34	Glioblastoma, IDH-mutant	Methylated	3B	Yes	No	0:LIVING	36.0	1:PROGRESSION	36.0
+P-0009629	glioma_mskcc_2019_418	Male	28	Glioblastoma, IDH-mutant	Methylated	None	No	No	1:DECEASED	69.2	1:PROGRESSION	53.5
+P-0001400	glioma_mskcc_2019_419	Female	34	Glioblastoma, IDH-mutant	Unmethylated	None	No	No	1:DECEASED	31.1	1:PROGRESSION	17.6
+P-0012681	glioma_mskcc_2019_42	Male	58	Glioblastoma, IDH-wildtype	Unmethylated	2B	Yes	No	0:LIVING	11.2	0:CENSORED	11.2
+P-0006546	glioma_mskcc_2019_420	Male	29	Glioblastoma, IDH-mutant	Methylated	None	No	No	0:LIVING	25.1	1:PROGRESSION	25.6
+P-0000588	glioma_mskcc_2019_421	Female	36	Glioblastoma, IDH-mutant		2B	Yes	No	0:LIVING	91.1	0:CENSORED	91.1
+P-0000651	glioma_mskcc_2019_422	Female	68	Glioblastoma, IDH-mutant	Methylated	4	No	No	0:LIVING	36.4	0:CENSORED	36.4
+P-0001253	glioma_mskcc_2019_423	Female	42	Glioblastoma, IDH-mutant	Methylated	4	No	No	0:LIVING	33.1	0:CENSORED	35.9
+P-0004242	glioma_mskcc_2019_424	Female	42	Glioblastoma, IDH-mutant		None	No	No	0:LIVING	29.7	0:CENSORED	29.0
+P-0009216	glioma_mskcc_2019_425	Male	24	Glioblastoma, IDH-mutant	Unmethylated	None	No	No	0:LIVING	13.2	0:CENSORED	15.5
+TRF034433	glioma_mskcc_2019_426	Male	46	Glioblastoma, IDH-mutant	Methylated	None	No	No	1:DECEASED	47.0	1:PROGRESSION	17.3
+P-0000611	glioma_mskcc_2019_427	Male	32	Glioblastoma, IDH-mutant		2B	Yes	No	1:DECEASED	19.5	1:PROGRESSION	10.8
+P-0004298	glioma_mskcc_2019_428	Male	20	Glioblastoma, IDH-mutant		2B	Yes	No	1:DECEASED	53.9	1:PROGRESSION	42.0
+TRF042358	glioma_mskcc_2019_429	Male	51	Glioblastoma, IDH-mutant	Methylated	2B	Yes	Yes	1:DECEASED	20.3	1:PROGRESSION	8.22
+P-0012360	glioma_mskcc_2019_43	Female	62	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	0:LIVING	14.7	1:PROGRESSION	8.68
+P-0011001	glioma_mskcc_2019_430	Female	24	Anaplastic oligodendroglioma, IDH-mutant and 1p/19q-codeleted		3B	Yes	No	0:LIVING	106.0	0:CENSORED	106.0
+TRF028383	glioma_mskcc_2019_431	Female	50	Anaplastic astrocytoma, IDH-mutant	Unmethylated	4	No	No	0:LIVING	83.8	1:PROGRESSION	11.8
+P-0004270	glioma_mskcc_2019_432	Male	37	Anaplastic astrocytoma, IDH-mutant	Methylated	2B	Yes	No	1:DECEASED	90.8	1:PROGRESSION	72.9
+TRF107052	glioma_mskcc_2019_433	Female	26	Anaplastic astrocytoma, IDH-mutant		None	No	No	0:LIVING	14.0		
+TRF036748	glioma_mskcc_2019_434	Male	29	Anaplastic astrocytoma, IDH-mutant		None	No	No	0:LIVING	48.1	0:CENSORED	44.2
+TRF043485	glioma_mskcc_2019_435	Male	45	Anaplastic astrocytoma, IDH-mutant	Methylated	3B	Yes	Yes	0:LIVING	144.0	1:PROGRESSION	132.0
+P-0003268	glioma_mskcc_2019_436	Male	38	Anaplastic astrocytoma, IDH-mutant		None	No	No	1:DECEASED	88.7	0:CENSORED	88.7
+P-0001881	glioma_mskcc_2019_437	Male	31	Anaplastic astrocytoma, IDH-mutant	Methylated	None	No	No	0:LIVING	63.8	0:CENSORED	57.9
+P-0002386	glioma_mskcc_2019_438	Female	28	Anaplastic astrocytoma, IDH-mutant	Methylated	2B	Yes	Yes	1:DECEASED	77.2	1:PROGRESSION	46.2
+P-0002294	glioma_mskcc_2019_439	Female	41	Anaplastic astrocytoma, IDH-mutant	Unmethylated	2B	Yes	Yes	1:DECEASED	84.2	1:PROGRESSION	62.1
+P-0013676	glioma_mskcc_2019_44	Male	26	Glioblastoma, IDH-wildtype	Unmethylated	1	Yes	No	0:LIVING	117.0	0:CENSORED	117.0
+P-0004723	glioma_mskcc_2019_440	Female	37	Anaplastic astrocytoma, IDH-mutant		None	No	No	0:LIVING	24.7	0:CENSORED	22.6
+TRF014752	glioma_mskcc_2019_441	Male	26	Anaplastic astrocytoma, IDH-mutant	Unmethylated	None	No	No	0:LIVING	92.6	0:CENSORED	88.3
+P-0002648	glioma_mskcc_2019_442	Female	45	Anaplastic astrocytoma, IDH-mutant	Methylated	None	No	No	0:LIVING	27.5	0:CENSORED	23.6
+P-0002335	glioma_mskcc_2019_443	Male	27	Anaplastic astrocytoma, IDH-mutant	Unmethylated	None	No	No	1:DECEASED	24.3	1:PROGRESSION	13.5
+P-0003447	glioma_mskcc_2019_444	Male	50	Anaplastic astrocytoma, IDH-mutant	Unmethylated	None	No	No	1:DECEASED	60.9	1:PROGRESSION	40.5
+P-0010369	glioma_mskcc_2019_445	Male	38	Anaplastic astrocytoma, IDH-mutant	Unmethylated	None	No	No	0:LIVING	30.1	1:PROGRESSION	6.5
+P-0010443	glioma_mskcc_2019_446	Female	29	Anaplastic astrocytoma, IDH-mutant	Unmethylated	None	No	No	0:LIVING	65.0	1:PROGRESSION	59.9
+P-0003467	glioma_mskcc_2019_447	Male	31	Anaplastic astrocytoma, IDH-mutant		3B	Yes	No	1:DECEASED	33.5	1:PROGRESSION	31.8
+P-0004288	glioma_mskcc_2019_448	Male	23	Anaplastic astrocytoma, IDH-mutant	Unmethylated	None	No	No	0:LIVING	34.6	1:PROGRESSION	11.4
+P-0008384	glioma_mskcc_2019_449	Male	38	Anaplastic astrocytoma, IDH-mutant		None	No	No	0:LIVING	198.0	0:CENSORED	186.0
+P-0012522	glioma_mskcc_2019_45	Female	62	Glioblastoma, IDH-wildtype	Unmethylated	3B	Yes	No	1:DECEASED	13.7		
+TRF050441	glioma_mskcc_2019_450	Male	33	Anaplastic astrocytoma, IDH-mutant		None	No	No	0:LIVING	149.0	0:CENSORED	136.0
+P-0002691	glioma_mskcc_2019_451	Female	60	Anaplastic astrocytoma, IDH-mutant		None	No	No	0:LIVING	101.0	0:CENSORED	88.8
+P-0010792	glioma_mskcc_2019_452	Female	45	Anaplastic astrocytoma, IDH-mutant	Unmethylated	None	No	No	0:LIVING	84.0	0:CENSORED	78.0
+TRF041560	glioma_mskcc_2019_453	Female	55	Anaplastic astrocytoma, IDH-mutant		None	No	No	0:LIVING	80.8	0:CENSORED	76.8
+P-0003392	glioma_mskcc_2019_454	Female	29	Anaplastic astrocytoma, IDH-mutant	Unmethylated	2B	Yes	No	0:LIVING	74.6	0:CENSORED	70.7
+TRF047609	glioma_mskcc_2019_455	Female	34	Anaplastic astrocytoma, IDH-mutant	Methylated	None	No	No	0:LIVING	90.0	0:CENSORED	90.0
+P-0009244	glioma_mskcc_2019_456	Male	42	Anaplastic astrocytoma, IDH-mutant	Methylated	None	No	No	0:LIVING	66.7	0:CENSORED	66.7
+P-0005243	glioma_mskcc_2019_457	Male	46	Anaplastic astrocytoma, IDH-mutant		None	No	No	0:LIVING	66.5	0:CENSORED	66.5
+P-0003449	glioma_mskcc_2019_458	Male	37	Anaplastic astrocytoma, IDH-mutant	Methylated	None	No	No	0:LIVING	66.0	0:CENSORED	58.9
+P-0001450	glioma_mskcc_2019_459	Female	42	Anaplastic astrocytoma, IDH-mutant		None	No	No	0:LIVING	35.7	0:CENSORED	31.7
+P-0011199	glioma_mskcc_2019_46	Female	73	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	12.3		
+TRF018670	glioma_mskcc_2019_460	Male	36	Anaplastic astrocytoma, IDH-mutant	Unmethylated	None	No	No	0:LIVING	64.5	0:CENSORED	59.4
+TRF046085	glioma_mskcc_2019_461	Male	46	Anaplastic astrocytoma, IDH-mutant	Methylated	None	No	No	0:LIVING	41.2	0:CENSORED	16.5
+P-0003820	glioma_mskcc_2019_462	Male	31	Anaplastic astrocytoma, IDH-mutant		None	No	No	0:LIVING	49.7	0:CENSORED	49.7
+P-0009507	glioma_mskcc_2019_463	Male	27	Anaplastic astrocytoma, IDH-mutant		None	No	No	0:LIVING	63.6	0:CENSORED	59.4
+P-0002051	glioma_mskcc_2019_464	Male	21	Anaplastic astrocytoma, IDH-mutant		None	No	No	0:LIVING	42.0	0:CENSORED	42.0
+TRF022348	glioma_mskcc_2019_465	Male	35	Anaplastic astrocytoma, IDH-mutant		None	No	No	0:LIVING	42.0	0:CENSORED	41.6
+P-0001920	glioma_mskcc_2019_466	Male	35	Anaplastic astrocytoma, IDH-mutant	Methylated	None	No	No	0:LIVING	43.0	0:CENSORED	39.5
+P-0004396	glioma_mskcc_2019_467	Male	49	Anaplastic astrocytoma, IDH-mutant		None	No	No	0:LIVING	42.4	0:CENSORED	38.2
+TRF035707	glioma_mskcc_2019_468	Male	38	Anaplastic astrocytoma, IDH-mutant		None	No	No	0:LIVING	43.3	0:CENSORED	36.9
+TRF038581	glioma_mskcc_2019_469	Female	23	Anaplastic astrocytoma, IDH-mutant	Unmethylated	None	No	No	0:LIVING	1.87	0:CENSORED	1.6
+P-0002022	glioma_mskcc_2019_47	Male	50	Glioblastoma, IDH-wildtype	Unmethylated	None	No	No	0:LIVING	1.84		
+P-0001320	glioma_mskcc_2019_470	Male	23	Anaplastic astrocytoma, IDH-mutant	Unmethylated	None	No	No	0:LIVING	34.0	0:CENSORED	29.2
+TRF061214	glioma_mskcc_2019_471	Female	49	Anaplastic astrocytoma, IDH-mutant		None	No	No	0:LIVING	7.2	0:CENSORED	7.2
+TRF066283	glioma_mskcc_2019_472	Male	24	Anaplastic astrocytoma, IDH-mutant	Unmethylated	None	No	No	0:LIVING	3.75	0:CENSORED	3.7
+P-0007814	glioma_mskcc_2019_473	Female	33	Anaplastic astrocytoma, IDH-mutant		None	No	No	0:LIVING	15.6	0:CENSORED	15.6
+P-0013092	glioma_mskcc_2019_474	Female	43	Anaplastic astrocytoma, IDH-mutant	Methylated	None	No	No	0:LIVING	18.0	0:CENSORED	14.8
+P-0010530	glioma_mskcc_2019_475	Female	50	Anaplastic astrocytoma, IDH-mutant		2B	Yes	No	0:LIVING	6.81	0:CENSORED	5.7
+TRF030607	glioma_mskcc_2019_476	Male	24	Anaplastic astrocytoma, IDH-mutant	Unmethylated	None	No	No	1:DECEASED	52.7	1:PROGRESSION	33.9
+P-0008242	glioma_mskcc_2019_477	Male	34	Anaplastic astrocytoma, IDH-mutant		2B	Yes	No	1:DECEASED	53.7	1:PROGRESSION	42.1
+P-0001823	glioma_mskcc_2019_478	Female	35	Anaplastic astrocytoma, IDH-mutant	Methylated	2B	Yes	No	1:DECEASED	31.1	1:PROGRESSION	24.0
+TRF033243	glioma_mskcc_2019_479	Female	53	Glioblastoma, IDH-mutant		None	No	No	1:DECEASED	6.9		
+TRF068126	glioma_mskcc_2019_48	Female	65	Glioblastoma, IDH-wildtype	Unmethylated	None	No	No	1:DECEASED	26.5	1:PROGRESSION	24.0
+TRF060952	glioma_mskcc_2019_480	Male	34	Anaplastic astrocytoma, IDH-mutant	Unmethylated	None	No	Yes	1:DECEASED	117.0	1:PROGRESSION	60.1
+P-0002013	glioma_mskcc_2019_481	Male	17	Anaplastic astrocytoma, IDH-mutant	Methylated	None	No	No	0:LIVING	90.9	0:CENSORED	87.7
+P-0013029	glioma_mskcc_2019_482	Male	38	Anaplastic astrocytoma, IDH-mutant	Methylated	3B	Yes	No	1:DECEASED	49.0		49.0
+P-0001975	glioma_mskcc_2019_483	Male	25	Anaplastic astrocytoma, IDH-mutant		None	No	No	0:LIVING	38.9	1:PROGRESSION	26.6
+TRF072363	glioma_mskcc_2019_484	Female	30	Anaplastic astrocytoma, IDH-mutant	Unmethylated	None	No	No	1:DECEASED	260.0	1:PROGRESSION	240.0
+P-0002128	glioma_mskcc_2019_485	Female	34	Anaplastic astrocytoma, IDH-mutant	Unmethylated	None	No	No	1:DECEASED	39.8	1:PROGRESSION	32.5
+P-0009600	glioma_mskcc_2019_486	Male	39	Anaplastic astrocytoma, IDH-mutant		None	No	No	1:DECEASED	19.3	1:PROGRESSION	11.7
+TRF030628	glioma_mskcc_2019_487	Male	35	Diffuse astrocytoma, IDH-mutant		None	No	No	0:LIVING	189.0	1:PROGRESSION	112.0
+P-0004625	glioma_mskcc_2019_488	Male	35	Diffuse astrocytoma, IDH-mutant		None	No	No	0:LIVING	194.0	0:CENSORED	191.0
+P-0002981	glioma_mskcc_2019_489	Female	43	Diffuse astrocytoma, IDH-mutant	Methylated	None	No	No	1:DECEASED	122.0	1:PROGRESSION	85.1
+P-0003853	glioma_mskcc_2019_49	Male	58	Glioblastoma, IDH-wildtype	Unmethylated	3B	Yes	No	0:LIVING	31.2	1:PROGRESSION	30.4
+P-0006782	glioma_mskcc_2019_490	Female	27	Diffuse astrocytoma, IDH-mutant		2B	Yes	Yes	1:DECEASED	99.1	1:PROGRESSION	95.2
+P-0009398	glioma_mskcc_2019_491	Male	14	Diffuse astrocytoma, IDH-mutant	Unmethylated	None	No	No	0:LIVING	48.8	0:CENSORED	43.8
+TRF079053	glioma_mskcc_2019_492	Female	39	Diffuse astrocytoma, IDH-mutant	Unmethylated	None	No	No	0:LIVING	22.3	0:CENSORED	22.3
+P-0002043	glioma_mskcc_2019_493	Male	31	Diffuse astrocytoma, IDH-mutant	Methylated	None	No	Yes	1:DECEASED	54.6	1:PROGRESSION	50.7
+P-0003428	glioma_mskcc_2019_494	Female	22	Diffuse astrocytoma, IDH-mutant	Methylated	None	No	No	0:LIVING	26.9	0:CENSORED	9.9
+TRF040046	glioma_mskcc_2019_495	Female	32	Diffuse astrocytoma, IDH-mutant	Methylated	None	No	Yes	0:LIVING	62.0	1:PROGRESSION	50.3
+TRF033231	glioma_mskcc_2019_496	Female	26	Diffuse astrocytoma, IDH-mutant	Methylated	None	No	Yes	1:DECEASED	69.1	1:PROGRESSION	54.5
+TRF050430	glioma_mskcc_2019_497	Male	22	Diffuse astrocytoma, IDH-mutant		3B	Yes	No	0:LIVING	167.0	0:CENSORED	168.0
+P-0004599	glioma_mskcc_2019_498	Male	38	Diffuse astrocytoma, IDH-mutant		None	No	No	0:LIVING	89.2	0:CENSORED	89.2
+TRF040878	glioma_mskcc_2019_499	Male	36	Diffuse astrocytoma, IDH-mutant		None	No	No	0:LIVING	86.8	1:PROGRESSION	80.8
+TRF024471	glioma_mskcc_2019_5	Male	51	Glioblastoma, IDH-wildtype	Unmethylated	2B	Yes	No	0:LIVING	14.6		
+P-0005539	glioma_mskcc_2019_50	Female	50	Glioblastoma, IDH-wildtype	Unmethylated	2B	Yes	No	0:LIVING	25.2		
+P-0002963	glioma_mskcc_2019_500	Male	51	Diffuse astrocytoma, IDH-mutant		None	No	No	0:LIVING	55.3	0:CENSORED	49.3
+P-0006396	glioma_mskcc_2019_501	Male	36	Diffuse astrocytoma, IDH-mutant		None	No	No	0:LIVING	60.1	0:CENSORED	63.0
+P-0004073	glioma_mskcc_2019_502	Male	61	Diffuse astrocytoma, IDH-mutant	Unmethylated	None	No	No	0:LIVING	47.0	0:CENSORED	47.0
+TRF041805	glioma_mskcc_2019_503	Male	21	Diffuse astrocytoma, IDH-mutant		2B	Yes	No	0:LIVING	7.36	0:CENSORED	7.4
+P-0004319	glioma_mskcc_2019_504	Female	38	Diffuse astrocytoma, IDH-mutant	Unmethylated	None	No	Yes	0:LIVING	36.2	0:CENSORED	35.7
+P-0008035	glioma_mskcc_2019_505	Male	39	Diffuse astrocytoma, IDH-mutant	Unmethylated	None	No	No	0:LIVING	38.1	0:CENSORED	33.2
+TRF043499	glioma_mskcc_2019_506	Male	39	Diffuse astrocytoma, IDH-mutant	Unmethylated	None	No	No	0:LIVING	36.9	0:CENSORED	33.0
+P-0009193	glioma_mskcc_2019_507	Male	26	Diffuse astrocytoma, IDH-mutant		None	No	No	0:LIVING	34.8	0:CENSORED	31.2
+P-0002729	glioma_mskcc_2019_508	Female	21	Diffuse astrocytoma, IDH-mutant	Unmethylated	None	No	No	0:LIVING	31.1	0:CENSORED	24.9
+P-0001929	glioma_mskcc_2019_509	Male	36	Diffuse astrocytoma, IDH-mutant	Unmethylated	None	No	No	0:LIVING	3.35	0:CENSORED	3.4
+P-0006054	glioma_mskcc_2019_51	Male	59	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	0:LIVING	21.3		
+P-0013281	glioma_mskcc_2019_510	Female	35	Diffuse astrocytoma, IDH-mutant	Unmethylated	None	No	No	0:LIVING	27.3	0:CENSORED	24.3
+P-0003579	glioma_mskcc_2019_511	Male	16	Diffuse astrocytoma, IDH-mutant	Methylated	None	No	No	0:LIVING	19.2	0:CENSORED	25.4
+P-0006019	glioma_mskcc_2019_512	Male	27	Diffuse astrocytoma, IDH-mutant		None	No	No	0:LIVING	8.32	0:CENSORED	1.2
+P-0009046	glioma_mskcc_2019_513	Male	25	Diffuse astrocytoma, IDH-mutant	Unmethylated	None	No	No	0:LIVING	17.2	0:CENSORED	14.7
+P-0009309	glioma_mskcc_2019_514	Female	44	Diffuse astrocytoma, IDH-mutant	Methylated	None	No	No	0:LIVING	1.71	0:CENSORED	1.1
+P-0010259	glioma_mskcc_2019_515	Male	17	Diffuse astrocytoma, IDH-mutant	Unmethylated	None	No	Yes	0:LIVING	15.6	0:CENSORED	12.2
+P-0011279	glioma_mskcc_2019_516	Female	34	Diffuse astrocytoma, IDH-mutant	Methylated	None	No	No	0:LIVING	3.68	0:CENSORED	8.1
+P-0003643	glioma_mskcc_2019_517	Male	29	Diffuse astrocytoma, IDH-mutant	Unmethylated	None	No	No	1:DECEASED	59.5	1:PROGRESSION	54.1
+P-0006037	glioma_mskcc_2019_518	Male	19	Diffuse astrocytoma, IDH-mutant		None	No	No	0:LIVING	207.0	0:CENSORED	196.0
+TRF042507	glioma_mskcc_2019_519	Male	30	Diffuse astrocytoma, IDH-mutant		4	No	No	0:LIVING	268.0	1:PROGRESSION	131.0
+P-0006404	glioma_mskcc_2019_52	Female	66	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	20.4		
+P-0005249	glioma_mskcc_2019_520	Male	28	Diffuse astrocytoma, IDH-mutant		None	No	No	0:LIVING	185.0	1:PROGRESSION	134.0
+P-0007914	glioma_mskcc_2019_521	Female	20	Diffuse astrocytoma, IDH-mutant		None	No	No	0:LIVING	154.0		
+TRF043510	glioma_mskcc_2019_522	Male	23	Diffuse astrocytoma, IDH-mutant		None	No	Yes	0:LIVING	179.0	1:PROGRESSION	170.0
+P-0003669	glioma_mskcc_2019_523	Female	31	Diffuse astrocytoma, IDH-mutant	Unmethylated	None	No	No	0:LIVING	126.0	0:CENSORED	126.0
+TRF036897	glioma_mskcc_2019_524	Female	21	Diffuse astrocytoma, IDH-mutant		None	No	No	0:LIVING	127.0	0:CENSORED	127.0
+TRF040880	glioma_mskcc_2019_525	Female	32	Diffuse astrocytoma, IDH-mutant	Unmethylated	2B	Yes	No	0:LIVING	108.0	1:PROGRESSION	57.8
+P-0003333	glioma_mskcc_2019_526	Male	35	Diffuse astrocytoma, IDH-mutant		None	No	No	0:LIVING	58.2	1:PROGRESSION	11.1
+TRF023776	glioma_mskcc_2019_527	Male	30	Diffuse astrocytoma, IDH-mutant		None	No	No	1:DECEASED	90.6	1:PROGRESSION	82.6
+P-0005635	glioma_mskcc_2019_528	Female	44	Diffuse astrocytoma, IDH-mutant	Unmethylated	None	No	No	1:DECEASED	46.7	1:PROGRESSION	32.7
+P-0001279	glioma_mskcc_2019_529	Female	39	Diffuse astrocytoma, IDH-mutant	Methylated	None	No	No	0:LIVING	73.0	0:CENSORED	69.1
+P-0008262	glioma_mskcc_2019_53	Male	66	Glioblastoma, IDH-wildtype	Unmethylated	3B	Yes	No	0:LIVING	9.93		
+P-0003292	glioma_mskcc_2019_530	Male	29	Diffuse astrocytoma, IDH-mutant		None	No	No	0:LIVING	43.7	1:PROGRESSION	37.4
+P-0005138	glioma_mskcc_2019_532	Female	23	Diffuse astrocytoma, IDH-mutant		None	No	No	0:LIVING	54.1	0:CENSORED	48.6
+P-0011257	glioma_mskcc_2019_533	Female	41	Diffuse astrocytoma, IDH-mutant	Unmethylated	None	No	No	0:LIVING	76.9	0:CENSORED	76.9
+P-0001076	glioma_mskcc_2019_534	Female	31	Diffuse astrocytoma, IDH-mutant	Unmethylated	None	No	No	0:LIVING	76.3	0:CENSORED	24.9
+P-0001921	glioma_mskcc_2019_535	Male	45	Diffuse astrocytoma, IDH-mutant		None	No	No	0:LIVING	35.4	0:CENSORED	35.4
+P-0004515	glioma_mskcc_2019_536	Male	19	Diffuse astrocytoma, IDH-mutant	Unmethylated	None	No	No	0:LIVING	28.1	0:CENSORED	24.0
+P-0004259	glioma_mskcc_2019_537	Male	37	Diffuse astrocytoma, IDH-mutant	Unmethylated	2B	Yes	No	1:DECEASED	134.0	1:PROGRESSION	114.0
+TRF040887	glioma_mskcc_2019_538	Male	25	Diffuse astrocytoma, IDH-mutant	Methylated	None	No	No	1:DECEASED	196.0	1:PROGRESSION	180.0
+TRF027848	glioma_mskcc_2019_539	Male	40	Diffuse astrocytoma, IDH-mutant	Unmethylated	2B	Yes	No	1:DECEASED	74.5	1:PROGRESSION	65.4
+P-0007835	glioma_mskcc_2019_54	Male	57	Glioblastoma, IDH-wildtype	Unmethylated	2B	Yes	No	1:DECEASED	14.7		
+P-0004256	glioma_mskcc_2019_540	Male	29	Diffuse astrocytoma, IDH-mutant	Methylated	None	No	No	1:DECEASED	51.8	1:PROGRESSION	44.0
+P-0010354	glioma_mskcc_2019_541	Male	23	Diffuse astrocytoma, IDH-mutant		None	No	No	1:DECEASED	48.8	1:PROGRESSION	29.6
+P-0008382	glioma_mskcc_2019_542	Male	28	Diffuse astrocytoma, IDH-mutant	Unmethylated	4	No	Yes	1:DECEASED	80.0	1:PROGRESSION	71.3
+P-0003822	glioma_mskcc_2019_543	Female	34	Diffuse astrocytoma, IDH-mutant	Unmethylated	2B	Yes	No	1:DECEASED	78.5	1:PROGRESSION	61.0
+P-0012671	glioma_mskcc_2019_544	Female	30	Diffuse astrocytoma, IDH-mutant		None	No	No	0:LIVING	229.0	1:PROGRESSION	218.0
+P-0009499	glioma_mskcc_2019_545	Male	25	Diffuse astrocytoma, IDH-mutant	Unmethylated	4	No	No	1:DECEASED	120.0	1:PROGRESSION	109.0
+TRF067080	glioma_mskcc_2019_546	Female	31	Diffuse astrocytoma, IDH-mutant		None	No	No	0:LIVING	123.0	1:PROGRESSION	110.0
+P-0010516	glioma_mskcc_2019_547	Female	36	Diffuse astrocytoma, IDH-mutant	Unmethylated	None	No	No	0:LIVING	85.8	1:PROGRESSION	15.9
+P-0000749	glioma_mskcc_2019_548	Male	24	Diffuse astrocytoma, IDH-mutant	Methylated	None	No	No	0:LIVING	85.6	1:PROGRESSION	32.8
+P-0000761	glioma_mskcc_2019_549	Female	33	Diffuse astrocytoma, IDH-mutant	Methylated	None	No	No	1:DECEASED	136.0	1:PROGRESSION	97.8
+P-0007551	glioma_mskcc_2019_55	Male	56	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	0:LIVING	1.45		
+P-0002695	glioma_mskcc_2019_550	Female	25	Diffuse astrocytoma, IDH-mutant	Methylated	3B	Yes	No	1:DECEASED	80.1	1:PROGRESSION	71.3
+TRF027872	glioma_mskcc_2019_551	Male	40	Diffuse astrocytoma, IDH-mutant		2B	Yes	No	1:DECEASED	144.0	1:PROGRESSION	133.0
+P-0000223	glioma_mskcc_2019_552	Female	17	Diffuse astrocytoma, IDH-mutant	Unmethylated	None	No	Yes	1:DECEASED	161.0	1:PROGRESSION	116.0
+TRF083668	glioma_mskcc_2019_553	Female	36	Anaplastic oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Methylated	None	No	No	0:LIVING	88.1	0:CENSORED	83.1
+TRF043342	glioma_mskcc_2019_554	Male	31	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted		None	No	No	0:LIVING	94.2	0:CENSORED	87.0
+P-0002224	glioma_mskcc_2019_555	Male	33	Anaplastic oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Methylated	4	No	No	0:LIVING	91.7	1:PROGRESSION	30.8
+TRF065134	glioma_mskcc_2019_556	Female	45	Anaplastic oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Methylated	None	No	No	0:LIVING	70.0	1:PROGRESSION	36.2
+P-0009447	glioma_mskcc_2019_557	Female	48	Anaplastic oligodendroglioma, IDH-mutant and 1p/19q-codeleted		None	No	No	0:LIVING	37.9	0:CENSORED	37.9
+P-0002216	glioma_mskcc_2019_558	Male	79	Anaplastic oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Unmethylated	None	No	No	0:LIVING	7.73	1:PROGRESSION	3.3
+P-0005302	glioma_mskcc_2019_559	Male	24	Anaplastic oligodendroglioma, IDH-mutant and 1p/19q-codeleted		None	No	No	0:LIVING	27.8	0:CENSORED	27.8
+P-0007844	glioma_mskcc_2019_56	Male	88	Glioblastoma, IDH-wildtype	Unmethylated	3B	Yes	No	0:LIVING	6.12	1:PROGRESSION	5.92
+TRF042510	glioma_mskcc_2019_560	Male	57	Anaplastic oligodendroglioma, IDH-mutant and 1p/19q-codeleted		None	No	No	0:LIVING	13.2	0:CENSORED	13.2
+P-0004027	glioma_mskcc_2019_561	Female	37	Anaplastic oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Methylated	None	No	No	0:LIVING	77.7	1:PROGRESSION	56.3
+P-0005616	glioma_mskcc_2019_562	Male	27	Anaplastic oligodendroglioma, IDH-mutant and 1p/19q-codeleted		3B	Yes	No	0:LIVING	52.6	0:CENSORED	48.7
+P-0008060	glioma_mskcc_2019_563	Female	56	Anaplastic oligodendroglioma, IDH-mutant and 1p/19q-codeleted		None	No	No	0:LIVING	86.6	1:PROGRESSION	68.4
+P-0007034	glioma_mskcc_2019_564	Female	76	Anaplastic oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Methylated	3B	Yes	No	0:LIVING	78.0	1:PROGRESSION	35.7
+P-0006481	glioma_mskcc_2019_565	Male	43	Anaplastic oligodendroglioma, IDH-mutant and 1p/19q-codeleted		3B	Yes	No	0:LIVING	89.0	0:CENSORED	89.0
+TRF029667	glioma_mskcc_2019_566	Female	28	Anaplastic oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Methylated	None	No	No	0:LIVING	51.8	0:CENSORED	50.5
+P-0001847	glioma_mskcc_2019_567	Female	36	Anaplastic oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Methylated	3B	Yes	No	0:LIVING	40.5	0:CENSORED	40.5
+TRF035201	glioma_mskcc_2019_568	Male	37	Anaplastic oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Unmethylated	None	No	No	0:LIVING	42.9	1:PROGRESSION	12.4
+TRF054314	glioma_mskcc_2019_569	Female	60	Anaplastic oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Unmethylated	None	No	No	0:LIVING	30.5	0:CENSORED	30.5
+P-0009201	glioma_mskcc_2019_57	Male	59	Glioblastoma, IDH-wildtype	Unmethylated	3B	Yes	No	0:LIVING	15.2	1:PROGRESSION	14.3
+P-0001970	glioma_mskcc_2019_570	Female	65	Anaplastic oligodendroglioma, IDH-mutant and 1p/19q-codeleted		3B	Yes	No	0:LIVING	33.6	0:CENSORED	26.0
+P-0004674	glioma_mskcc_2019_571	Female	39	Anaplastic oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Methylated	None	No	No	0:LIVING	16.2	0:CENSORED	20.4
+P-0003968	glioma_mskcc_2019_572	Male	58	Anaplastic oligodendroglioma, IDH-mutant and 1p/19q-codeleted		None	No	No	1:DECEASED	23.3	0:CENSORED	23.3
+P-0004370	glioma_mskcc_2019_573	Male	45	Anaplastic oligodendroglioma, IDH-mutant and 1p/19q-codeleted		None	No	No	0:LIVING	0.56	0:CENSORED	0.6
+P-0012259	glioma_mskcc_2019_574	Male	48	Anaplastic oligodendroglioma, IDH-mutant and 1p/19q-codeleted		3B	Yes	No	0:LIVING	43.9	0:CENSORED	38.8
+P-0012460	glioma_mskcc_2019_575	Male	81	Anaplastic oligodendroglioma, IDH-mutant and 1p/19q-codeleted		None	No	No	1:DECEASED	3.45	0:CENSORED	3.5
+P-0012697	glioma_mskcc_2019_576	Male	32	Anaplastic oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Unmethylated	2B	Yes	No	0:LIVING	12.7	0:CENSORED	9.6
+P-0011009	glioma_mskcc_2019_577	Male	72	Anaplastic oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Methylated	3B	Yes	No	0:LIVING	14.4	0:CENSORED	9.1
+P-0012640	glioma_mskcc_2019_578	Male	53	Anaplastic oligodendroglioma, IDH-mutant and 1p/19q-codeleted		3B	Yes	No	0:LIVING	1.87	0:CENSORED	1.9
+TRF039306	glioma_mskcc_2019_579	Male	49	Anaplastic oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Methylated	None	No	No	1:DECEASED	70.2	1:PROGRESSION	40.9
+P-0009119	glioma_mskcc_2019_58	Male	66	Glioblastoma, IDH-wildtype	Unmethylated	3B	Yes	No	0:LIVING	3.88		
+TRF043651	glioma_mskcc_2019_580	Male	54	Anaplastic oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Methylated	3B	Yes	No	1:DECEASED	61.5	0:CENSORED	62.1
+P-0004683	glioma_mskcc_2019_581	Female	81	Anaplastic oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Methylated	None	No	No	1:DECEASED	26.1	0:CENSORED	26.1
+P-0006554	glioma_mskcc_2019_582	Female	31	Anaplastic oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Methylated	2B	Yes	No	0:LIVING	87.3	1:PROGRESSION	61.5
+P-0010744	glioma_mskcc_2019_583	Female	38	Anaplastic oligodendroglioma, IDH-mutant and 1p/19q-codeleted		2B	Yes	No	0:LIVING	165.0	1:PROGRESSION	71.0
+P-0003120	glioma_mskcc_2019_584	Female	49	Anaplastic oligodendroglioma, IDH-mutant and 1p/19q-codeleted		None	No	No	0:LIVING	127.0	0:CENSORED	123.0
+P-0008244	glioma_mskcc_2019_585	Male	31	Anaplastic oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Methylated	None	No	No	0:LIVING	80.8	1:PROGRESSION	15.4
+P-0002572	glioma_mskcc_2019_586	Male	19	Anaplastic oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Unmethylated	3B	Yes	No	1:DECEASED	51.5	1:PROGRESSION	9.6
+P-0008337	glioma_mskcc_2019_587	Male	41	Anaplastic oligodendroglioma, IDH-mutant and 1p/19q-codeleted		3B	Yes	No	0:LIVING	148.0	0:CENSORED	145.0
+P-0009537	glioma_mskcc_2019_588	Male	37	Anaplastic oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Methylated	None	No	No	0:LIVING	7.86	0:CENSORED	7.9
+P-0004812	glioma_mskcc_2019_589	Male	33	Anaplastic oligodendroglioma, IDH-mutant and 1p/19q-codeleted		2B	Yes	Yes	0:LIVING	129.0	1:PROGRESSION	46.8
+P-0009790	glioma_mskcc_2019_59	Male	69	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	0:LIVING	10.8	1:PROGRESSION	7.36
+P-0001882	glioma_mskcc_2019_590	Male	41	Anaplastic oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Methylated	3B	Yes	No	0:LIVING	192.0	1:PROGRESSION	104.0
+P-0009511	glioma_mskcc_2019_591	Male	37	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Unmethylated	None	No	No	0:LIVING	84.6	1:PROGRESSION	64.1
+P-0013243	glioma_mskcc_2019_592	Female	37	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Unmethylated	None	No	No	1:DECEASED	135.0	1:PROGRESSION	116.0
+P-0002298	glioma_mskcc_2019_593	Female	29	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted		None	No	No	0:LIVING	119.0	0:CENSORED	111.0
+P-0004630	glioma_mskcc_2019_594	Female	51	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Unmethylated	None	No	No	0:LIVING	44.9	0:CENSORED	40.1
+P-0003833	glioma_mskcc_2019_595	Male	38	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Unmethylated	None	No	No	0:LIVING	86.5	0:CENSORED	86.5
+TRF051132	glioma_mskcc_2019_596	Male	53	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Methylated	None	No	No	0:LIVING	73.4	0:CENSORED	79.1
+TRF078227	glioma_mskcc_2019_597	Female	50	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Methylated	None	No	No	0:LIVING	41.5	0:CENSORED	41.5
+P-0012997	glioma_mskcc_2019_598	Female	47	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted		None	No	No	0:LIVING	125.0	1:PROGRESSION	122.0
+P-0008402	glioma_mskcc_2019_599	Male	60	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted		None	No	No	0:LIVING	19.3	0:CENSORED	15.6
+P-0002015	glioma_mskcc_2019_6	Female	43	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	32.1		
+P-0009304	glioma_mskcc_2019_60	Female	77	Glioblastoma, IDH-wildtype	Unmethylated	3B	Yes	No	0:LIVING	1.22		
+P-0005609	glioma_mskcc_2019_600	Female	29	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Unmethylated	4	No	No	0:LIVING	21.7	0:CENSORED	18.7
+TRF071913	glioma_mskcc_2019_601	Female	64	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted		3B	Yes	No	0:LIVING	91.2	0:CENSORED	91.2
+TRF043353	glioma_mskcc_2019_602	Male	39	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Methylated	None	No	No	0:LIVING	82.0	0:CENSORED	77.2
+P-0004304	glioma_mskcc_2019_603	Male	35	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted		None	No	No	0:LIVING	77.7	0:CENSORED	77.7
+P-0002815	glioma_mskcc_2019_604	Male	43	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted		None	No	No	0:LIVING	62.2	0:CENSORED	58.9
+P-0013276	glioma_mskcc_2019_605	Female	44	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted		None	No	No	0:LIVING	63.7	0:CENSORED	57.0
+TRF031075	glioma_mskcc_2019_606	Male	68	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted		None	No	No	0:LIVING	59.4	0:CENSORED	57.0
+P-0006947	glioma_mskcc_2019_607	Male	38	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Methylated	None	No	No	0:LIVING	54.1	0:CENSORED	50.4
+TRF051892	glioma_mskcc_2019_608	Female	71	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Methylated	None	No	Yes	0:LIVING	50.3	0:CENSORED	48.0
+P-0007013	glioma_mskcc_2019_609	Male	68	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Methylated	None	No	No	0:LIVING	27.1	0:CENSORED	23.2
+P-0010864	glioma_mskcc_2019_61	Male	60	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	0:LIVING	5.56		
+P-0005951	glioma_mskcc_2019_610	Male	35	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Unmethylated	None	No	No	0:LIVING	31.6	0:CENSORED	27.6
+P-0003614	glioma_mskcc_2019_611	Male	27	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted		None	No	No	0:LIVING	78.7	0:CENSORED	71.8
+P-0005281	glioma_mskcc_2019_612	Female	38	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted		None	No	No	0:LIVING	30.4	0:CENSORED	30.4
+TRF068124	glioma_mskcc_2019_613	Male	52	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Methylated	None	No	No	0:LIVING	7.76	0:CENSORED	7.8
+P-0004493	glioma_mskcc_2019_614	Female	27	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted		None	No	No	0:LIVING	2.93	0:CENSORED	2.9
+P-0008725	glioma_mskcc_2019_615	Female	52	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted		None	No	No	0:LIVING	15.6	0:CENSORED	15.6
+P-0005789	glioma_mskcc_2019_616	Female	50	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted		4	No	No	0:LIVING	25.7	0:CENSORED	19.7
+P-0010003	glioma_mskcc_2019_617	Male	39	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Methylated	None	No	No	0:LIVING	16.9	0:CENSORED	14.1
+P-0008531	glioma_mskcc_2019_618	Male	47	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Methylated	None	No	No	0:LIVING	18.2	0:CENSORED	15.7
+P-0008416	glioma_mskcc_2019_619	Female	35	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Methylated	3B	Yes	No	0:LIVING	18.4	0:CENSORED	15.5
+P-0009475	glioma_mskcc_2019_62	Male	64	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	0:LIVING	5.29		
+P-0011320	glioma_mskcc_2019_620	Male	42	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted		None	No	No	0:LIVING	136.0	0:CENSORED	123.0
+P-0008270	glioma_mskcc_2019_621	Male	36	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Unmethylated	4	No	No	0:LIVING	0.33	0:CENSORED	0.3
+P-0009219	glioma_mskcc_2019_622	Female	48	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Methylated	None	No	No	0:LIVING	16.3	0:CENSORED	14.0
+P-0009264	glioma_mskcc_2019_623	Male	34	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Unmethylated	None	No	No	0:LIVING	1.08	0:CENSORED	0.5
+P-0010859	glioma_mskcc_2019_624	Female	30	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted		None	No	No	0:LIVING	28.8	0:CENSORED	22.8
+P-0012434	glioma_mskcc_2019_625	Male	41	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted		None	No	No	0:LIVING	14.9	0:CENSORED	9.7
+P-0012227	glioma_mskcc_2019_626	Female	42	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Methylated	None	No	No	0:LIVING	14.2	1:PROGRESSION	10.3
+P-0013048	glioma_mskcc_2019_627	Male	32	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Unmethylated	3B	Yes	No	0:LIVING	9.21	0:CENSORED	5.8
+TRF029674	glioma_mskcc_2019_628	Male	64	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted		None	No	No	1:DECEASED	17.2	0:CENSORED	0.9
+P-0003339	glioma_mskcc_2019_629	Female	45	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted		None	No	No	0:LIVING	42.5	0:CENSORED	42.5
+P-0010358	glioma_mskcc_2019_63	Female	55	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	13.5	1:PROGRESSION	7.92
+P-0011532	glioma_mskcc_2019_630	Male	35	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Methylated	None	No	No	0:LIVING	198.0	1:PROGRESSION	111.0
+P-0000930	glioma_mskcc_2019_631	Male	38	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Methylated	None	No	No	0:LIVING	179.0	0:CENSORED	179.0
+P-0001250	glioma_mskcc_2019_632	Male	43	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Methylated	None	No	No	0:LIVING	188.0	0:CENSORED	188.0
+P-0013181	glioma_mskcc_2019_633	Female	27	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted		None	No	No	1:DECEASED	128.0	1:PROGRESSION	90.4
+P-0012444	glioma_mskcc_2019_634	Male	13	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted		None	No	No	0:LIVING	132.0	0:CENSORED	138.0
+P-0009411	glioma_mskcc_2019_635	Female	40	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted		None	No	Yes	0:LIVING	130.0	1:PROGRESSION	103.0
+P-0004313	glioma_mskcc_2019_636	Male	31	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted		3B	Yes	No	0:LIVING	173.0	1:PROGRESSION	129.0
+P-0009685	glioma_mskcc_2019_637	Male	53	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Methylated	None	No	No	0:LIVING	126.0	0:CENSORED	120.0
+P-0003269	glioma_mskcc_2019_638	Female	33	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Unmethylated	3B	Yes	No	0:LIVING	109.0	1:PROGRESSION	92.7
+P-0012705	glioma_mskcc_2019_639	Male	43	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted		None	No	No	0:LIVING	148.0	1:PROGRESSION	142.0
+P-0011401	glioma_mskcc_2019_64	Female	53	Glioblastoma, IDH-wildtype	Unmethylated	2B	Yes	No	0:LIVING	15.4	1:PROGRESSION	13.0
+P-0004578	glioma_mskcc_2019_640	Male	43	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Methylated	None	No	No	0:LIVING	117.0	1:PROGRESSION	35.9
+P-0005939	glioma_mskcc_2019_641	Female	57	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Methylated	None	No	No	1:DECEASED	170.0	1:PROGRESSION	99.9
+P-0003266	glioma_mskcc_2019_642	Female	30	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Methylated	None	No	No	0:LIVING	126.0	0:CENSORED	126.0
+P-0012209	glioma_mskcc_2019_643	Male	26	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Methylated	None	No	No	0:LIVING	180.0	0:CENSORED	177.0
+P-0004721	glioma_mskcc_2019_644	Male	35	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Methylated	3B	Yes	No	0:LIVING	96.0	0:CENSORED	94.4
+P-0001412	glioma_mskcc_2019_645	Male	56	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Methylated	None	No	No	0:LIVING	128.0	1:PROGRESSION	98.7
+P-0008333	glioma_mskcc_2019_646	Female	52	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Methylated	None	No	No	0:LIVING	110.0	0:CENSORED	110.0
+P-0000896	glioma_mskcc_2019_647	Male	33	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Methylated	None	No	No	0:LIVING	86.5	0:CENSORED	82.6
+P-0003065	glioma_mskcc_2019_648	Female	39	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted		None	No	No	0:LIVING	89.3	0:CENSORED	85.2
+P-0004102	glioma_mskcc_2019_649	Male	58	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Unmethylated	None	No	No	0:LIVING	74.2	0:CENSORED	69.6
+P-0011219	glioma_mskcc_2019_65	Male	67	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	13.9	1:PROGRESSION	5.65
+P-0006119	glioma_mskcc_2019_650	Male	56	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Unmethylated	4	No	No	0:LIVING	52.3	1:PROGRESSION	25.4
+P-0000486	glioma_mskcc_2019_651	Female	35	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Methylated	None	No	No	0:LIVING	113.0	0:CENSORED	113.0
+P-0011248	glioma_mskcc_2019_652	Male	59	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Methylated	3B	Yes	No	0:LIVING	117.0	1:PROGRESSION	101.0
+P-0002313	glioma_mskcc_2019_653	Female	35	Diffuse astrocytoma, IDH-mutant	Methylated	None	No	No	0:LIVING	136.0	0:CENSORED	133.0
+glioma_mskcc_2019_654	glioma_mskcc_2019_654	Male	40	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Methylated	4	No	No	1:DECEASED	58.6	1:PROGRESSION	25.6
+TRF051544	glioma_mskcc_2019_655	Male	49	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Methylated	None	No	No	1:DECEASED	207.0	1:PROGRESSION	196.0
+TRF069124	glioma_mskcc_2019_656	Male	27	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Methylated	3B	Yes	No	1:DECEASED	137.0	1:PROGRESSION	98.1
+P-0010185	glioma_mskcc_2019_657	Female	26	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Methylated	3B	Yes	No	0:LIVING	170.0	1:PROGRESSION	127.0
+P-0009749	glioma_mskcc_2019_658	Female	51	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Unmethylated	3B	Yes	No	0:LIVING	228.0	1:PROGRESSION	81.5
+P-0008388	glioma_mskcc_2019_659	Female	43	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted		None	No	No	1:DECEASED	160.0	1:PROGRESSION	107.0
+P-0010802	glioma_mskcc_2019_66	Male	69	Glioblastoma, IDH-wildtype	Unmethylated	3B	Yes	No	0:LIVING	7.53	1:PROGRESSION	8.65
+P-0001420	glioma_mskcc_2019_660	Female	47	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Unmethylated	3B	Yes	No	1:DECEASED	132.0	1:PROGRESSION	76.5
+TRF065100	glioma_mskcc_2019_661	Female	38	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Methylated	2B	Yes	No	1:DECEASED	253.0	1:PROGRESSION	195.0
+P-0010085	glioma_mskcc_2019_662	Male	29	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted		None	No	Yes	0:LIVING	164.0	0:CENSORED	161.0
+P-0004531	glioma_mskcc_2019_663	Female	36	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted		3B	Yes	No	1:DECEASED	258.0	1:PROGRESSION	40.5
+P-0001991	glioma_mskcc_2019_664	Female	44	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted		None	No	No	1:DECEASED	248.0	1:PROGRESSION	122.0
+TRF051908	glioma_mskcc_2019_665	Female	70	Pleomorphic xanthoastrocytoma		3B	Yes	No	0:LIVING	136.0		
+TRF054735	glioma_mskcc_2019_666	Female	55	Other	Unmethylated	4	No	No	0:LIVING	82.2		
+P-0007744	glioma_mskcc_2019_667	Male	31	Anaplastic pleomorphic xanthoastrocytoma		2B	Yes	No	0:LIVING	24.3		
+P-0002900	glioma_mskcc_2019_668	Male	45	Rosette-forming glioneuronal tumor		3B	Yes	No	0:LIVING	39.0		
+P-0011332	glioma_mskcc_2019_67	Male	69	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	0:LIVING	14.3	1:PROGRESSION	8.12
+TRF029668	glioma_mskcc_2019_670	Female	53	Gliosarcoma	Unmethylated	4	No	No	0:LIVING	45.7		
+P-0013308	glioma_mskcc_2019_671	Male	49	Other		4	No	No	1:DECEASED	42.2		
+TRF069507	glioma_mskcc_2019_672	Female	38	Other		3B	Yes	No	0:LIVING	32.8		
+P-0000928	glioma_mskcc_2019_673	Male	49	Gliosarcoma	Methylated	2B	Yes	No	1:DECEASED	37.6	1:PROGRESSION	33.0
+P-0001053	glioma_mskcc_2019_674	Male	80	Gliosarcoma	Unmethylated	4	No	No	1:DECEASED	6.48		
+TRF066660	glioma_mskcc_2019_675	Male	46	Diffuse midline glioma, H3 K27M-mutant	Unmethylated	2B	Yes	No	0:LIVING	13.9		
+TRF059647	glioma_mskcc_2019_676	Female	29	Pilocytic astrocytoma		3B	Yes	No	0:LIVING	17.3		
+P-0002638	glioma_mskcc_2019_677	Female	66	Gliosarcoma	Methylated	4	No	No	0:LIVING	30.2		
+P-0011325	glioma_mskcc_2019_678	Male	67	Oligodendroglioma, NOS	Unmethylated	None	No	No	0:LIVING	24.5		
+P-0004884	glioma_mskcc_2019_679	Male	53	Other	Unmethylated	None	No	No	0:LIVING	24.8		
+P-0012250	glioma_mskcc_2019_68	Male	70	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	0:LIVING	5.59		
+P-0006174	glioma_mskcc_2019_680	Female	81	Anaplastic astrocytoma, IDH-wildtype	Unmethylated	4	No	No	0:LIVING	11.0		
+P-0006411	glioma_mskcc_2019_681	Female	46	Diffuse midline glioma, H3 K27M-mutant	Unmethylated	2B	Yes	No	1:DECEASED	19.2		
+P-0006848	glioma_mskcc_2019_682	Female	53	Gliosarcoma	Unmethylated	4	No	No	1:DECEASED	22.4	1:PROGRESSION	10.4
+P-0007173	glioma_mskcc_2019_683	Male	36	Diffuse midline glioma, H3 K27M-mutant	Unmethylated	None	No	No	0:LIVING	20.0		
+P-0008189	glioma_mskcc_2019_684	Female	30	Other	Unmethylated	2B	Yes	No	0:LIVING	10.8		
+P-0011026	glioma_mskcc_2019_685	Female	64	Gliosarcoma	Unmethylated	4	No	No	1:DECEASED	11.3		
+P-0008380	glioma_mskcc_2019_686	Male	44	Gliosarcoma	Unmethylated	3B	Yes	No	1:DECEASED	17.7	1:PROGRESSION	6.97
+P-0004430	glioma_mskcc_2019_687	Male	40	Oligoastrocytoma	Unmethylated	None	No	No	1:DECEASED	59.0		
+P-0002254	glioma_mskcc_2019_688	Female	59	Other		None	No	No	0:LIVING	82.6		
+P-0006678	glioma_mskcc_2019_689	Male	20	Pilocytic astrocytoma/Diffuse astrocytoma, IDH mutant	Unmethylated	None	No	No	0:LIVING	66.5		
+P-0012412	glioma_mskcc_2019_69	Male	32	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	0:LIVING	4.8	1:PROGRESSION	6.74
+P-0001988	glioma_mskcc_2019_690	Male	30	Pilocytic astrocytoma		3B	Yes	No	0:LIVING	200.0		
+TRF043492	glioma_mskcc_2019_691	Female	53	Oligoastrocytoma	Methylated	None	No	No	1:DECEASED	44.8		
+P-0003865	glioma_mskcc_2019_692	Female	54	Gliosarcoma	Unmethylated	3B	Yes	No	1:DECEASED	20.0		
+P-0005542	glioma_mskcc_2019_693	Male	57	Gliosarcoma	Methylated	4	No	No	0:LIVING	29.4		
+P-0009649	glioma_mskcc_2019_694	Male	58	Gliosarcoma		4	No	No	1:DECEASED	10.2		
+P-0009365	glioma_mskcc_2019_695	Female	52	Gliosarcoma	Unmethylated	4	No	No	1:DECEASED	10.2		
+P-0002620	glioma_mskcc_2019_696	Male	13	Other	Unmethylated	None	No	No	1:DECEASED	77.0		
+P-0007415	glioma_mskcc_2019_697	Female	11	Other		2B	Yes	Yes	0:LIVING	191.0		
+P-0015617	glioma_mskcc_2019_698	Female	48	Anaplastic oligodendroglioma, IDH-mutant and 1p/19q-codeleted		None	No	No	0:LIVING	87.1	1:PROGRESSION	81.4
+P-0014647	glioma_mskcc_2019_699	Male	57	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted		None	No	No	0:LIVING	3.25	0:CENSORED	3.3
+P-0012156	glioma_mskcc_2019_7	Male	40	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	0:LIVING	40.1		
+P-0012637	glioma_mskcc_2019_70	Male	61	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	0:LIVING	12.7	0:CENSORED	12.7
+P-0015062	glioma_mskcc_2019_700	Female	37	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Unmethylated	None	No	No	0:LIVING	146.0	0:CENSORED	146.0
+P-0015357	glioma_mskcc_2019_701	Male	39	Anaplastic astrocytoma, IDH-mutant		None	No	No	0:LIVING	0.92	0:CENSORED	0.9
+P-0016462	glioma_mskcc_2019_702	Female	41	Anaplastic oligodendroglioma, IDH-mutant and 1p/19q-codeleted		None	No	No	0:LIVING	0.76	0:CENSORED	0.8
+P-0018317	glioma_mskcc_2019_703	Male	49	Diffuse astrocytoma, IDH-mutant	Methylated	None	No	No	0:LIVING	75.3	1:PROGRESSION	10.4
+P-0017307	glioma_mskcc_2019_704	Male	44	Diffuse astrocytoma, IDH-mutant	Methylated	None	No	No	0:LIVING	178.0	1:PROGRESSION	178.0
+P-0015086	glioma_mskcc_2019_705	Male	43	Anaplastic oligodendroglioma, IDH-mutant and 1p/19q-codeleted		None	No	No	1:DECEASED	256.0	1:PROGRESSION	96.6
+P-0015238	glioma_mskcc_2019_706	Female	30	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted		None	No	No	0:LIVING	206.0	0:CENSORED	202.0
+P-0018691	glioma_mskcc_2019_707	Male	28	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Methylated	3B	Yes	No	0:LIVING	170.0	1:PROGRESSION	40.0
+P-0013455	glioma_mskcc_2019_708	Male	40	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted		4	No	No	0:LIVING	211.0	0:CENSORED	211.0
+P-0014865	glioma_mskcc_2019_709	Male	38	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Methylated	None	No	No	0:LIVING	162.0		
+P-0012687	glioma_mskcc_2019_71	Male	80	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	11.1	1:PROGRESSION	7.13
+P-0015613	glioma_mskcc_2019_710	Female	28	Diffuse astrocytoma, IDH-mutant		None	No	No	0:LIVING	165.0	0:CENSORED	163.0
+P-0016814	glioma_mskcc_2019_711	Male	47	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted		None	No	No	0:LIVING	165.0	1:PROGRESSION	109.0
+P-0013678	glioma_mskcc_2019_712	Female	35	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Methylated	None	No	No	0:LIVING	156.0	1:PROGRESSION	93.8
+P-0019001	glioma_mskcc_2019_713	Female	53	Anaplastic astrocytoma, IDH-mutant	Unmethylated	None	No	No	0:LIVING	133.0	1:PROGRESSION	59.9
+P-0019568	glioma_mskcc_2019_714	Female	44	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Methylated	None	No	No	0:LIVING	100.0	0:CENSORED	100.0
+P-0016324	glioma_mskcc_2019_715	Male	53	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Methylated	None	No	No	0:LIVING	6.74	0:CENSORED	7.1
+P-0015666	glioma_mskcc_2019_716	Male	40	Diffuse astrocytoma, IDH-mutant		None	No	No	0:LIVING	101.0	1:PROGRESSION	14.6
+P-0016896	glioma_mskcc_2019_717	Male	33	Anaplastic astrocytoma, IDH-mutant		None	No	No	0:LIVING	101.0	0:CENSORED	101.0
+P-0015527	glioma_mskcc_2019_718	Female	36	Anaplastic astrocytoma, IDH-mutant		None	No	No	0:LIVING	120.0	0:CENSORED	120.0
+P-0013370	glioma_mskcc_2019_719	Male	43	Diffuse astrocytoma, IDH-mutant		None	No	No	1:DECEASED	101.0	1:PROGRESSION	38.7
+P-0012967	glioma_mskcc_2019_72	Male	78	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	6.71	1:PROGRESSION	4.96
+P-0015460	glioma_mskcc_2019_720	Female	27	Anaplastic oligodendroglioma, IDH-mutant and 1p/19q-codeleted		None	No	No	0:LIVING	99.3	0:CENSORED	99.3
+P-0018124	glioma_mskcc_2019_721	Male	14	Diffuse astrocytoma, IDH-mutant		None	No	No	0:LIVING	64.2	0:CENSORED	65.2
+P-0013991	glioma_mskcc_2019_722	Female	38	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted		4	No	No	0:LIVING	95.3	0:CENSORED	92.5
+P-0016404	glioma_mskcc_2019_723	Female	29	Anaplastic astrocytoma, IDH-mutant	Methylated	None	No	No	0:LIVING	81.3	0:CENSORED	81.3
+P-0016383	glioma_mskcc_2019_724	Female	42	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Methylated	None	No	No	0:LIVING	76.2	0:CENSORED	76.2
+P-0017017	glioma_mskcc_2019_726	Male	38	Anaplastic astrocytoma, IDH-mutant		None	No	No	0:LIVING	62.1	0:CENSORED	62.1
+P-0017802	glioma_mskcc_2019_727	Female	25	Anaplastic astrocytoma, IDH-mutant		3B	Yes	No	1:DECEASED	71.0	1:PROGRESSION	55.2
+P-0017024	glioma_mskcc_2019_728	Male	29	Diffuse astrocytoma, IDH-mutant		None	No	No	0:LIVING	68.1	1:PROGRESSION	59.1
+P-0018238	glioma_mskcc_2019_729	Female	33	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Methylated	None	No	No	0:LIVING	100.0	1:PROGRESSION	94.5
+P-0013074	glioma_mskcc_2019_73	Male	54	Glioblastoma, IDH-wildtype	Unmethylated	4	No	Yes	0:LIVING	12.4	1:PROGRESSION	8.68
+P-0017301	glioma_mskcc_2019_730	Female	19	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted		None	No	No	0:LIVING	64.3	0:CENSORED	71.3
+P-0019236	glioma_mskcc_2019_731	Female	32	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted		None	No	No	0:LIVING	26.0	0:CENSORED	35.9
+P-0015816	glioma_mskcc_2019_732	Male	44	Diffuse astrocytoma, IDH-mutant	Unmethylated	None	No	No	0:LIVING	23.7	0:CENSORED	23.7
+P-0019039	glioma_mskcc_2019_733	Male	21	Diffuse astrocytoma, IDH-mutant	Unmethylated	3B	Yes	No	0:LIVING	20.6	0:CENSORED	20.6
+P-0017463	glioma_mskcc_2019_734	Female	38	Anaplastic astrocytoma, IDH-mutant		None	No	No	0:LIVING	20.3	0:CENSORED	20.3
+P-0015912	glioma_mskcc_2019_735	Male	41	Anaplastic astrocytoma, IDH-mutant		None	No	No	0:LIVING	19.1	0:CENSORED	19.1
+P-0014018	glioma_mskcc_2019_736	Female	38	Anaplastic astrocytoma, IDH-mutant	Unmethylated	2B	Yes	No	0:LIVING	15.8	1:PROGRESSION	12.4
+P-0017449	glioma_mskcc_2019_737	Female	36	Anaplastic oligodendroglioma, IDH-mutant and 1p/19q-codeleted		None	No	No	0:LIVING	10.4	0:CENSORED	10.5
+P-0012463	glioma_mskcc_2019_738	Female	30	Anaplastic astrocytoma, IDH-mutant		None	No	Yes	1:DECEASED	57.1	1:PROGRESSION	40.3
+P-0013783	glioma_mskcc_2019_739	Male	33	Glioblastoma, IDH-mutant		2B	Yes	No	0:LIVING	14.8	0:CENSORED	14.8
+P-0012727	glioma_mskcc_2019_74	Male	79	Glioblastoma, IDH-wildtype	Unmethylated	2B	Yes	No	1:DECEASED	10.4	1:PROGRESSION	5.85
+P-0013970	glioma_mskcc_2019_740	Male	58	Diffuse astrocytoma, IDH-mutant		None	No	No	0:LIVING	13.6	0:CENSORED	13.5
+P-0013747	glioma_mskcc_2019_741	Female	43	Anaplastic astrocytoma, IDH-mutant	Methylated	None	No	No	0:LIVING	13.2	0:CENSORED	11.8
+P-0016957	glioma_mskcc_2019_742	Female	31	Anaplastic astrocytoma, IDH-mutant		None	No	No	0:LIVING	10.3	0:CENSORED	12.7
+P-0013602	glioma_mskcc_2019_743	Male	27	Glioblastoma, IDH-mutant	Unmethylated	None	No	No	0:LIVING	1.48	0:CENSORED	1.45
+P-0015044	glioma_mskcc_2019_744	Female	32	Anaplastic astrocytoma, IDH-mutant		2B	Yes	No	0:LIVING	18.9	0:CENSORED	16.9
+P-0014152	glioma_mskcc_2019_745	Male	35	Glioblastoma, IDH-mutant	Methylated	None	No	No	0:LIVING	6.18	0:CENSORED	10.6
+P-0014728	glioma_mskcc_2019_746	Male	29	Anaplastic astrocytoma, IDH-mutant	Unmethylated	None	No	No	1:DECEASED	116.0	1:PROGRESSION	76.4
+P-0014498	glioma_mskcc_2019_747	Male	25	Anaplastic astrocytoma, IDH-mutant	Unmethylated	3B	Yes	No	0:LIVING	3.22	0:CENSORED	8.3
+P-0019052	glioma_mskcc_2019_748	Female	44	Anaplastic astrocytoma, IDH-mutant		4	No	No	0:LIVING	5.19	0:CENSORED	5.2
+P-0014883	glioma_mskcc_2019_749	Male	28	Diffuse astrocytoma, IDH-mutant		4	No	No	0:LIVING	62.0	1:PROGRESSION	59.0
+P-0012717	glioma_mskcc_2019_75	Male	63	Glioblastoma, IDH-wildtype	Unmethylated	2B	Yes	No	0:LIVING	12.4		
+P-0015712	glioma_mskcc_2019_750	Male	35	Anaplastic astrocytoma, IDH-mutant		None	No	No	0:LIVING	9.96	0:CENSORED	10.0
+P-0015289	glioma_mskcc_2019_751	Male	22	Glioblastoma, IDH-mutant	Unmethylated	None	No	No	0:LIVING	8.52	0:CENSORED	9.9
+P-0017763	glioma_mskcc_2019_752	Male	57	Diffuse astrocytoma, IDH-mutant	Unmethylated	None	No	No	0:LIVING	8.02	0:CENSORED	8.0
+P-0016470	glioma_mskcc_2019_753	Female	37	Diffuse astrocytoma, IDH-mutant		None	No	No	0:LIVING	6.02	0:CENSORED	6.0
+P-0016166	glioma_mskcc_2019_754	Male	68	Glioblastoma, IDH-mutant	Methylated	2B	Yes	No	0:LIVING	6.25	0:CENSORED	6.25
+P-0019638	glioma_mskcc_2019_755	Male	32	Diffuse astrocytoma, IDH-mutant		None	No	No	0:LIVING	8.52	0:CENSORED	8.5
+P-0015888	glioma_mskcc_2019_756	Female	58	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Unmethylated	None	No	No	0:LIVING	6.38	0:CENSORED	6.4
+P-0016168	glioma_mskcc_2019_757	Male	24	Diffuse astrocytoma, IDH-mutant	Methylated	None	No	No	0:LIVING	43.3	0:CENSORED	42.1
+P-0018097	glioma_mskcc_2019_758	Female	16	Diffuse astrocytoma, IDH-mutant	Unmethylated	3B	Yes	No	0:LIVING	133.0	1:PROGRESSION	129.0
+P-0016257	glioma_mskcc_2019_759	Male	34	Anaplastic astrocytoma, IDH-mutant		None	No	No	0:LIVING	6.54	0:CENSORED	7.4
+P-0012904	glioma_mskcc_2019_76	Male	68	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	0:LIVING	2.7		
+P-0016576	glioma_mskcc_2019_760	Male	27	Anaplastic astrocytoma, IDH-mutant		None	No	No	0:LIVING	0.89	0:CENSORED	0.3
+P-0017033	glioma_mskcc_2019_761	Female	20	Diffuse astrocytoma, IDH-mutant		None	No	No	0:LIVING	20.5	1:PROGRESSION	19.4
+P-0017704	glioma_mskcc_2019_762	Male	34	Anaplastic astrocytoma, IDH-mutant		None	No	No	0:LIVING	3.35	0:CENSORED	3.4
+P-0017195	glioma_mskcc_2019_763	Male	31	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Unmethylated	None	No	No	0:LIVING	93.5	1:PROGRESSION	21.4
+P-0017475	glioma_mskcc_2019_764	Male	28	Anaplastic astrocytoma, IDH-mutant		2B	Yes	No	0:LIVING	1.78	0:CENSORED	3.6
+P-0018680	glioma_mskcc_2019_765	Male	31	Diffuse astrocytoma, IDH-mutant	Methylated	None	No	No	0:LIVING	11.2	0:CENSORED	11.2
+P-0017922	glioma_mskcc_2019_766	Female	29	Anaplastic astrocytoma, IDH-mutant		None	No	No	0:LIVING	0.72	0:CENSORED	3.6
+P-0018387	glioma_mskcc_2019_767	Male	41	Diffuse astrocytoma, IDH-mutant		None	No	No	0:LIVING	42.8	1:PROGRESSION	5.7
+P-0019282	glioma_mskcc_2019_768	Male	19	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Unmethylated	None	No	No	0:LIVING	3.42	0:CENSORED	0.8
+P-0018911	glioma_mskcc_2019_769	Female	35	Glioblastoma, IDH-mutant		2B	Yes	No	0:LIVING	0.92	0:CENSORED	0.92
+P-0013204	glioma_mskcc_2019_77	Male	63	Glioblastoma, IDH-wildtype	Unmethylated	4	No	Yes	0:LIVING	12.3	1:PROGRESSION	8.71
+P-0019595	glioma_mskcc_2019_770	Male	30	Glioblastoma, IDH-mutant		None	No	No	0:LIVING	5.06	0:CENSORED	5.06
+P-0019505	glioma_mskcc_2019_771	Male	22	Oligodendroglioma, IDH-mutant and 1p/19q-codeleted	Unmethylated	None	No	No	0:LIVING	0.66	0:CENSORED	0.7
+P-0019089	glioma_mskcc_2019_772	Male	25	Anaplastic astrocytoma, IDH-mutant	Methylated	None	No	No	0:LIVING	26.5	1:PROGRESSION	22.8
+P-0019484	glioma_mskcc_2019_773	Male	46	Glioblastoma, IDH-mutant		None	No	No	0:LIVING	4.6	0:CENSORED	4.14
+P-0019644	glioma_mskcc_2019_774	Male	31	Anaplastic astrocytoma, IDH-mutant		None	No	No	0:LIVING	4.11	0:CENSORED	2.6
+P-0017460	glioma_mskcc_2019_775	Female	56	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	0:LIVING	5.36	1:PROGRESSION	5.79
+P-0014059	glioma_mskcc_2019_776	Male	62	Glioblastoma, IDH-wildtype	Methylated	2B	Yes	No	0:LIVING	12.3	1:PROGRESSION	9.01
+P-0015571	glioma_mskcc_2019_777	Female	56	Glioblastoma, IDH-wildtype		None	No	No	0:LIVING	75.5	0:CENSORED	75.5
+P-0016048	glioma_mskcc_2019_778	Female	21	Diffuse midline glioma, H3 K27M-mutant	Unmethylated	None	No	No	0:LIVING	43.6		
+P-0015573	glioma_mskcc_2019_779	Male	54	Glioblastoma, IDH-wildtype	Methylated	2B	Yes	No	0:LIVING	59.9		
+TRF050776	glioma_mskcc_2019_78	Female	56	Glioblastoma, IDH-wildtype	Unmethylated	4	No	Yes	1:DECEASED	54.4	1:PROGRESSION	32.6
+P-0018544	glioma_mskcc_2019_780	Male	66	Glioblastoma, IDH-wildtype	Unmethylated	2B	Yes	No	0:LIVING	40.2	1:PROGRESSION	43.2
+P-0013852	glioma_mskcc_2019_781	Male	69	Glioblastoma, IDH-wildtype	Methylated	2B	Yes	No	0:LIVING	0.26		
+P-0013938	glioma_mskcc_2019_782	Male	53	Glioblastoma, IDH-wildtype		4	No	No	1:DECEASED	30.0		
+P-0019244	glioma_mskcc_2019_783	Female	48	Glioblastoma, IDH-wildtype	Unmethylated	1	Yes	No	0:LIVING	1.97		
+P-0013506	glioma_mskcc_2019_784	Female	55	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	0:LIVING	30.4		
+P-0015603	glioma_mskcc_2019_785	Male	62	Glioblastoma, IDH-wildtype		2B	Yes	No	0:LIVING	22.6	1:PROGRESSION	15.4
+P-0015919	glioma_mskcc_2019_786	Male	57	Glioblastoma, IDH-wildtype		3B	Yes	No	0:LIVING	10.5	1:PROGRESSION	7.59
+P-0017183	glioma_mskcc_2019_787	Female	44	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	0:LIVING	0.69		
+P-0013347	glioma_mskcc_2019_788	Male	54	Glioblastoma, IDH-wildtype	Unmethylated	2B	Yes	No	1:DECEASED	15.3		
+P-0016238	glioma_mskcc_2019_789	Male	55	Glioblastoma, IDH-wildtype	Unmethylated	3B	Yes	No	0:LIVING	17.0	0:CENSORED	17.0
+TRF022209	glioma_mskcc_2019_79	Female	55	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	11.0		
+P-0015455	glioma_mskcc_2019_790	Female	56	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	0:LIVING	3.25		
+P-0014006	glioma_mskcc_2019_791	Male	63	Glioblastoma, IDH-wildtype	Unmethylated	2B	Yes	Yes	0:LIVING	13.0	1:PROGRESSION	8.75
+P-0015860	glioma_mskcc_2019_792	Male	64	Glioblastoma, IDH-wildtype	Unmethylated	None	No	No	0:LIVING	2.2		
+P-0015156	glioma_mskcc_2019_793	Male	35	Glioblastoma, IDH-wildtype	Unmethylated	2B	Yes	No	0:LIVING	33.4		
+P-0015367	glioma_mskcc_2019_794	Male	65	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	0:LIVING	6.9		
+P-0015024	glioma_mskcc_2019_795	Male	74	Glioblastoma, IDH-wildtype		3B	Yes	No	0:LIVING	7.53	1:PROGRESSION	7.36
+P-0018801	glioma_mskcc_2019_796	Male	39	Glioblastoma, IDH-wildtype	Methylated	4	No	No	0:LIVING	11.0		
+P-0013005	glioma_mskcc_2019_797	Female	62	Glioblastoma, IDH-wildtype	Unmethylated	None	No	No	0:LIVING	0.82		
+P-0013579	glioma_mskcc_2019_798	Male	88	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	10.1	1:PROGRESSION	5.69
+P-0013580	glioma_mskcc_2019_799	Female	46	Glioblastoma, IDH-wildtype	Methylated	4	No	No	0:LIVING	12.3	0:CENSORED	12.3
+P-0003783	glioma_mskcc_2019_8	Male	54	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	25.3	1:PROGRESSION	9.21
+P-0002585	glioma_mskcc_2019_80	Male	60	Glioblastoma, IDH-wildtype	Unmethylated	None	No	No	1:DECEASED	22.9	1:PROGRESSION	6.51
+P-0013576	glioma_mskcc_2019_800	Female	51	Glioblastoma, IDH-wildtype		2B	Yes	No	0:LIVING	3.09		
+P-0015369	glioma_mskcc_2019_801	Male	62	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	0:LIVING	2.14		
+P-0013529	glioma_mskcc_2019_802	Male	30	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	0:LIVING	4.41		
+P-0013380	glioma_mskcc_2019_803	Male	58	Glioblastoma, IDH-wildtype	Unmethylated	3B	Yes	No	0:LIVING	12.1	1:PROGRESSION	3.32
+P-0013578	glioma_mskcc_2019_804	Male	51	Glioblastoma, IDH-wildtype	Methylated	4	No	No	0:LIVING	0.95		
+P-0015377	glioma_mskcc_2019_805	Female	77	Glioblastoma, IDH-wildtype	Unmethylated	3B	Yes	No	0:LIVING	4.6	1:PROGRESSION	5.52
+P-0015346	glioma_mskcc_2019_806	Female	44	Glioblastoma, IDH-wildtype	Unmethylated	None	No	No	0:LIVING	8.94	1:PROGRESSION	7.0
+P-0014033	glioma_mskcc_2019_807	Male	74	Glioblastoma, IDH-wildtype		4	No	No	0:LIVING	10.6		
+P-0018793	glioma_mskcc_2019_808	Female	57	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	0:LIVING	20.5	1:PROGRESSION	18.8
+P-0013770	glioma_mskcc_2019_809	Male	80	Glioblastoma, IDH-wildtype	Unmethylated	None	No	No	0:LIVING	0.2		
+TRF061174	glioma_mskcc_2019_81	Male	62	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	16.6		
+P-0013595	glioma_mskcc_2019_810	Male	54	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	0:LIVING	0.36		
+P-0013926	glioma_mskcc_2019_811	Male	30	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	0:LIVING	10.6	1:PROGRESSION	9.21
+P-0016945	glioma_mskcc_2019_812	Female	57	Glioblastoma, IDH-wildtype	Methylated	None	No	No	0:LIVING	18.2	1:PROGRESSION	14.4
+P-0014318	glioma_mskcc_2019_813	Male	81	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	4.34		
+P-0014164	glioma_mskcc_2019_814	Male	52	Glioblastoma, IDH-wildtype	Methylated	4	No	No	1:DECEASED	7.53		
+P-0014180	glioma_mskcc_2019_815	Male	75	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	0:LIVING	10.4		
+P-0014220	glioma_mskcc_2019_816	Male	63	Glioblastoma, IDH-wildtype	Unmethylated	4	No	Yes	0:LIVING	11.9	1:PROGRESSION	7.4
+P-0017103	glioma_mskcc_2019_817	Male	66	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	10.5		
+P-0014071	glioma_mskcc_2019_818	Male	66	Glioblastoma, IDH-wildtype	Unmethylated	2B	Yes	No	1:DECEASED	7.0		
+P-0015449	glioma_mskcc_2019_819	Female	79	Glioblastoma, IDH-wildtype	Methylated	2B	Yes	No	0:LIVING	6.77		
+P-0000822	glioma_mskcc_2019_82	Male	59	Glioblastoma, IDH-wildtype	Unmethylated	2B	Yes	Yes	1:DECEASED	24.3	1:PROGRESSION	12.6
+P-0014031	glioma_mskcc_2019_820	Female	78	Glioblastoma, IDH-wildtype		4	No	No	0:LIVING	0.49		
+P-0014099	glioma_mskcc_2019_821	Female	77	Glioblastoma, IDH-wildtype	Unmethylated	2B	Yes	No	1:DECEASED	6.97	1:PROGRESSION	6.08
+P-0016395	glioma_mskcc_2019_822	Female	64	Glioblastoma, IDH-wildtype	Unmethylated	3B	Yes	No	1:DECEASED	11.2		
+P-0016209	glioma_mskcc_2019_823	Male	60	Glioblastoma, IDH-wildtype	Methylated	4	No	No	0:LIVING	11.0	0:CENSORED	11.0
+P-0014186	glioma_mskcc_2019_824	Female	53	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	0:LIVING	10.6	1:PROGRESSION	4.73
+P-0014501	glioma_mskcc_2019_825	Male	47	Glioblastoma, IDH-wildtype	Unmethylated	2B	Yes	No	0:LIVING	38.3		
+P-0014677	glioma_mskcc_2019_826	Male	50	Glioblastoma, IDH-wildtype	Unmethylated	None	No	Yes	0:LIVING	11.2	1:PROGRESSION	7.53
+P-0014760	glioma_mskcc_2019_827	Female	69	Glioblastoma, IDH-wildtype	Methylated	None	No	No	0:LIVING	8.12		
+P-0014759	glioma_mskcc_2019_828	Male	56	Glioblastoma, IDH-wildtype	Methylated	4	No	No	0:LIVING	0.2		
+P-0017291	glioma_mskcc_2019_829	Female	61	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	0:LIVING	1.05	1:PROGRESSION	12.7
+P-0001388	glioma_mskcc_2019_83	Male	77	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	24.8	1:PROGRESSION	5.49
+P-0016823	glioma_mskcc_2019_830	Male	59	Glioblastoma, IDH-wildtype	Unmethylated	3B	Yes	No	0:LIVING	3.78		
+P-0019147	glioma_mskcc_2019_831	Male	71	Glioblastoma, IDH-wildtype	Unmethylated	3B	Yes	No	0:LIVING	9.67	1:PROGRESSION	10.3
+P-0015297	glioma_mskcc_2019_832	Male	58	Glioblastoma, IDH-wildtype	Unmethylated	None	No	No	0:LIVING	2.89		
+P-0016228	glioma_mskcc_2019_833	Female	47	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	0:LIVING	15.9		
+P-0015540	glioma_mskcc_2019_834	Male	59	Glioblastoma, IDH-wildtype	Unmethylated	3B	Yes	No	0:LIVING	3.48		
+P-0014881	glioma_mskcc_2019_835	Male	67	Glioblastoma, IDH-wildtype	Methylated	2B	Yes	No	0:LIVING	0.69		
+P-0015194	glioma_mskcc_2019_836	Female	64	Glioblastoma, IDH-wildtype	Unmethylated	3B	Yes	Yes	0:LIVING	8.68	1:PROGRESSION	9.57
+P-0015071	glioma_mskcc_2019_837	Male	62	Glioblastoma, IDH-wildtype	Methylated	2B	Yes	No	0:LIVING	7.4	1:PROGRESSION	5.56
+P-0016256	glioma_mskcc_2019_838	Male	54	Glioblastoma, IDH-wildtype		4	No	No	1:DECEASED	11.6	1:PROGRESSION	6.31
+P-0015216	glioma_mskcc_2019_839	Female	71	Glioblastoma, IDH-wildtype	Methylated	4	No	No	0:LIVING	14.6	1:PROGRESSION	6.77
+TRF030609	glioma_mskcc_2019_84	Male	57	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	10.2	1:PROGRESSION	8.09
+P-0017095	glioma_mskcc_2019_840	Male	39	Glioblastoma, IDH-wildtype	Unmethylated	2B	Yes	No	0:LIVING	84.7	0:CENSORED	84.7
+P-0019375	glioma_mskcc_2019_841	Female	56	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	0:LIVING	7.56	1:PROGRESSION	13.8
+P-0015393	glioma_mskcc_2019_842	Male	48	Glioblastoma, IDH-wildtype	Unmethylated	2B	Yes	No	0:LIVING	21.9		
+P-0015423	glioma_mskcc_2019_843	Male	39	Glioblastoma, IDH-wildtype	Methylated	4	No	No	0:LIVING	3.55		
+P-0015290	glioma_mskcc_2019_844	Male	60	Glioblastoma, IDH-wildtype		4	No	No	0:LIVING	0.82	0:CENSORED	0.82
+P-0015424	glioma_mskcc_2019_845	Male	68	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	2.99		
+P-0016416	glioma_mskcc_2019_846	Male	59	Glioblastoma, IDH-wildtype	Unmethylated	3B	Yes	No	0:LIVING	7.46	1:PROGRESSION	9.76
+P-0015584	glioma_mskcc_2019_847	Female	70	Glioblastoma, IDH-wildtype	Methylated	None	No	No	1:DECEASED	4.37		
+P-0015684	glioma_mskcc_2019_848	Male	73	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	0:LIVING	8.05		
+P-0016142	glioma_mskcc_2019_849	Female	63	Glioblastoma, IDH-wildtype	Methylated	None	No	No	0:LIVING	8.28	1:PROGRESSION	9.93
+TRF022879	glioma_mskcc_2019_85	Female	71	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	29.0	1:PROGRESSION	11.6
+P-0018295	glioma_mskcc_2019_850	Male	52	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	0:LIVING	8.05		
+P-0016352	glioma_mskcc_2019_851	Female	66	Glioblastoma, IDH-wildtype	Methylated	4	No	No	0:LIVING	8.02		
+P-0016691	glioma_mskcc_2019_852	Male	53	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	0:LIVING	7.69	1:PROGRESSION	8.55
+P-0016684	glioma_mskcc_2019_853	Female	69	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	4.01	1:PROGRESSION	4.01
+P-0017289	glioma_mskcc_2019_854	Male	72	Glioblastoma, IDH-wildtype	Methylated	4	No	No	0:LIVING	5.19		
+P-0018168	glioma_mskcc_2019_855	Male	43	Glioblastoma, IDH-wildtype	Unmethylated	None	No	No	0:LIVING	10.3	1:PROGRESSION	7.46
+P-0016572	glioma_mskcc_2019_856	Female	50	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	2.01		
+P-0017286	glioma_mskcc_2019_857	Male	55	Glioblastoma, IDH-wildtype	Unmethylated	2B	Yes	No	0:LIVING	8.38	1:PROGRESSION	6.12
+P-0019603	glioma_mskcc_2019_858	Female	70	Glioblastoma, IDH-wildtype	Methylated	4	No	Yes	0:LIVING	7.56	0:CENSORED	7.56
+P-0016793	glioma_mskcc_2019_859	Male	78	Glioblastoma, IDH-wildtype	Unmethylated	3B	Yes	No	1:DECEASED	1.18		
+TRF036750	glioma_mskcc_2019_86	Male	68	Glioblastoma, IDH-wildtype	Unmethylated	3B	Yes	No	1:DECEASED	23.6	1:PROGRESSION	6.54
+P-0017789	glioma_mskcc_2019_860	Male	38	Glioblastoma, IDH-wildtype	Unmethylated	3B	Yes	No	0:LIVING	3.65	1:PROGRESSION	7.69
+P-0017056	glioma_mskcc_2019_861	Female	58	Glioblastoma, IDH-wildtype	Unmethylated	3B	Yes	No	0:LIVING	10.4		
+P-0017675	glioma_mskcc_2019_862	Male	32	Glioblastoma, IDH-wildtype	Unmethylated	2B	Yes	No	0:LIVING	12.0		
+P-0017482	glioma_mskcc_2019_863	Female	71	Glioblastoma, IDH-wildtype	Unmethylated	3B	Yes	No	0:LIVING	6.02		
+P-0019447	glioma_mskcc_2019_864	Male	82	Glioblastoma, IDH-wildtype	Unmethylated	2B	Yes	No	1:DECEASED	5.33	1:PROGRESSION	5.33
+P-0017507	glioma_mskcc_2019_865	Male	64	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	0:LIVING	5.75	1:PROGRESSION	9.86
+P-0017821	glioma_mskcc_2019_866	Male	67	Glioblastoma, IDH-wildtype	Unmethylated	2B	Yes	No	1:DECEASED	5.39		
+P-0017856	glioma_mskcc_2019_867	Male	87	Glioblastoma, IDH-wildtype	Methylated	4	No	No	0:LIVING	1.61		
+P-0019596	glioma_mskcc_2019_868	Male	51	Glioblastoma, IDH-wildtype	Unmethylated	2B	Yes	No	0:LIVING	6.94		
+P-0017864	glioma_mskcc_2019_869	Male	77	Glioblastoma, IDH-wildtype	Methylated	3B	Yes	No	0:LIVING	0.53		
+P-0001819	glioma_mskcc_2019_87	Male	67	Glioblastoma, IDH-wildtype	Unmethylated	3B	Yes	No	1:DECEASED	12.4	1:PROGRESSION	9.01
+P-0018449	glioma_mskcc_2019_870	Male	59	Glioblastoma, IDH-wildtype		4	No	No	1:DECEASED	17.2		
+P-0017863	glioma_mskcc_2019_871	Female	53	Glioblastoma, IDH-wildtype		4	No	No	0:LIVING	5.26		
+P-0019245	glioma_mskcc_2019_872	Male	59	Glioblastoma, IDH-wildtype		4	No	No	0:LIVING	3.35		
+P-0019056	glioma_mskcc_2019_873	Male	41	Glioblastoma, IDH-wildtype	Unmethylated	None	No	No	0:LIVING	5.36	0:CENSORED	5.36
+P-0018020	glioma_mskcc_2019_874	Male	77	Glioblastoma, IDH-wildtype	Unmethylated	3B	Yes	Yes	0:LIVING	3.75		
+P-0018344	glioma_mskcc_2019_875	Female	68	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	0:LIVING	4.73		
+P-0018445	glioma_mskcc_2019_876	Female	57	Glioblastoma, IDH-wildtype		2B	Yes	No	0:LIVING	1.12		
+P-0018836	glioma_mskcc_2019_877	Female	49	Glioblastoma, IDH-wildtype	Methylated	2B	Yes	No	0:LIVING	0.89		
+P-0018054	glioma_mskcc_2019_878	Female	52	Glioblastoma, IDH-wildtype	Unmethylated	None	No	No	0:LIVING	7.79	1:PROGRESSION	6.35
+P-0018220	glioma_mskcc_2019_879	Male	60	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	0:LIVING	1.38		
+P-0003600	glioma_mskcc_2019_88	Male	54	Glioblastoma, IDH-wildtype	Unmethylated	None	No	No	1:DECEASED	21.0	1:PROGRESSION	9.86
+P-0018276	glioma_mskcc_2019_880	Male	53	Glioblastoma, IDH-wildtype	Methylated	4	No	No	0:LIVING	0.26		
+P-0019503	glioma_mskcc_2019_881	Male	74	Glioblastoma, IDH-wildtype	Unmethylated	2B	Yes	No	0:LIVING	3.06		
+P-0018678	glioma_mskcc_2019_882	Female	74	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	0:LIVING	4.54	1:PROGRESSION	5.69
+P-0018343	glioma_mskcc_2019_883	Female	44	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	0:LIVING	5.42	1:PROGRESSION	6.18
+P-0018572	glioma_mskcc_2019_884	Male	55	Glioblastoma, IDH-wildtype		4	No	No	0:LIVING	3.45	1:PROGRESSION	8.05
+P-0018851	glioma_mskcc_2019_885	Male	41	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	0:LIVING	7.63		
+P-0019280	glioma_mskcc_2019_886	Female	47	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	0:LIVING	4.64	1:PROGRESSION	7.17
+P-0018884	glioma_mskcc_2019_887	Male	74	Glioblastoma, IDH-wildtype		4	No	No	0:LIVING	5.82	1:PROGRESSION	6.54
+P-0018674	glioma_mskcc_2019_888	Female	45	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	0:LIVING	12.4		
+P-0019169	glioma_mskcc_2019_889	Male	67	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	0:LIVING	3.32		
+TRF059651	glioma_mskcc_2019_89	Male	65	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	12.5	1:PROGRESSION	5.98
+P-0019260	glioma_mskcc_2019_890	Male	54	Glioblastoma, IDH-wildtype	Unmethylated	2B	Yes	No	0:LIVING	3.25	1:PROGRESSION	9.7
+P-0018951	glioma_mskcc_2019_891	Female	48	Glioblastoma, IDH-wildtype	Unmethylated	None	No	No	0:LIVING	0.66		
+P-0019173	glioma_mskcc_2019_892	Male	72	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	0:LIVING	3.12		
+P-0019164	glioma_mskcc_2019_893	Male	62	Glioblastoma, IDH-wildtype		4	No	No	0:LIVING	0.53		
+P-0019341	glioma_mskcc_2019_894	Female	50	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	0:LIVING	1.08		
+P-0019261	glioma_mskcc_2019_895	Female	54	Glioblastoma, IDH-wildtype	Unmethylated	4	No	Yes	0:LIVING	3.32	1:PROGRESSION	8.98
+P-0019643	glioma_mskcc_2019_896	Male	65	Glioblastoma, IDH-wildtype		3B	Yes	No	0:LIVING	4.37	1:PROGRESSION	4.83
+P-0019556	glioma_mskcc_2019_897	Female	62	Glioblastoma, IDH-wildtype	Unmethylated	1	Yes	No	0:LIVING	2.66	0:CENSORED	2.66
+P-0013836	glioma_mskcc_2019_898	Female	55	Gliosarcoma	Unmethylated	4	No	No	1:DECEASED	15.4		
+P-0015347	glioma_mskcc_2019_899	Female	59	Gliosarcoma	Unmethylated	4	No	No	0:LIVING	13.4	1:PROGRESSION	4.8
+P-0012312	glioma_mskcc_2019_9	Female	63	Glioblastoma, IDH-wildtype	Unmethylated	2B	Yes	No	0:LIVING	17.6		
+P-0003567	glioma_mskcc_2019_90	Male	49	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	18.2	1:PROGRESSION	6.51
+P-0016784	glioma_mskcc_2019_900	Male	59	Gliosarcoma	Unmethylated	4	No	No	1:DECEASED	11.5	1:PROGRESSION	9.83
+P-0013814	glioma_mskcc_2019_901	Male	63	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	0:LIVING	115.0		
+P-0016735	glioma_mskcc_2019_902	Female	80	Anaplastic astrocytoma, IDH-wildtype	Methylated	3B	Yes	No	1:DECEASED	1.58	1:PROGRESSION	1.58
+P-0016540	glioma_mskcc_2019_903	Female	56	Glioblastoma, IDH-wildtype	Unmethylated	2B	Yes	Yes	0:LIVING	36.8	0:CENSORED	36.8
+P-0017417	glioma_mskcc_2019_904	Male	28	Other		2B	Yes	Yes	0:LIVING	21.2		
+P-0015722	glioma_mskcc_2019_905	Female	59	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	0:LIVING	17.5		
+P-0016566	glioma_mskcc_2019_906	Male	25	Diffuse astrocytoma, IDH-wildtype	Methylated	4	No	Yes	0:LIVING	59.0		
+P-0013605	glioma_mskcc_2019_907	Female	78	Diffuse astrocytoma, IDH-wildtype	Unmethylated	None	No	No	0:LIVING	1.94		
+P-0016829	glioma_mskcc_2019_908	Female	63	Anaplastic astrocytoma, IDH-wildtype		None	No	No	0:LIVING	11.2		
+P-0016845	glioma_mskcc_2019_909	Male	47	Diffuse astrocytoma, IDH-wildtype		4	No	No	0:LIVING	11.5	0:CENSORED	11.5
+P-0000758	glioma_mskcc_2019_91	Male	50	Glioblastoma, IDH-wildtype	Unmethylated	2B	Yes	No	1:DECEASED	45.4	1:PROGRESSION	12.0
+P-0014791	glioma_mskcc_2019_910	Male	59	Diffuse astrocytoma, IDH-wildtype	Unmethylated	4	No	No	0:LIVING	9.14	1:PROGRESSION	16.0
+P-0016948	glioma_mskcc_2019_911	Male	33	Anaplastic astrocytoma, IDH-wildtype		2B	Yes	No	0:LIVING	9.14	1:PROGRESSION	12.8
+P-0016602	glioma_mskcc_2019_912	Female	55	Anaplastic astrocytoma, IDH-wildtype	Unmethylated	None	No	No	0:LIVING	6.74	1:PROGRESSION	10.7
+P-0016467	glioma_mskcc_2019_913	Male	68	Diffuse astrocytoma, IDH-wildtype		None	No	No	0:LIVING	7.56		
+P-0017668	glioma_mskcc_2019_914	Male	59	Anaplastic astrocytoma, IDH-wildtype	Unmethylated	4	No	No	0:LIVING	6.61	1:PROGRESSION	5.98
+P-0018899	glioma_mskcc_2019_915	Male	27	Diffuse midline glioma, H3 K27M-mutant		3B	Yes	No	0:LIVING	7.04		
+P-0017634	glioma_mskcc_2019_916	Female	61	Anaplastic astrocytoma, IDH-wildtype		4	No	No	0:LIVING	5.49	1:PROGRESSION	2.53
+P-0017927	glioma_mskcc_2019_917	Female	34	Diffuse astrocytoma, IDH-wildtype	Unmethylated	4	No	No	0:LIVING	4.7	1:PROGRESSION	4.64
+P-0019134	glioma_mskcc_2019_918	Female	58	Anaplastic astrocytoma, IDH-wildtype		4	No	No	1:DECEASED	2.83	1:PROGRESSION	2.83
+P-0019497	glioma_mskcc_2019_919	Female	57	Anaplastic astrocytoma, IDH-wildtype	Unmethylated	4	No	No	0:LIVING	9.14	1:PROGRESSION	6.38
+P-0006545	glioma_mskcc_2019_92	Male	22	Glioblastoma, IDH-wildtype	Unmethylated	None	No	No	1:DECEASED	32.0	1:PROGRESSION	27.9
+P-0019175	glioma_mskcc_2019_920	Male	44	Diffuse astrocytoma, IDH-wildtype	Unmethylated	None	No	No	0:LIVING	2.3	0:CENSORED	2.3
+P-0019127	glioma_mskcc_2019_921	Male	18	Pilocytic astrocytoma		3B	Yes	No	0:LIVING	0.1		
+P-0019642	glioma_mskcc_2019_922	Male	37	Glioblastoma, IDH-wildtype	Unmethylated	4	No	Yes	0:LIVING	2.43	1:PROGRESSION	4.21
+P-0005672	glioma_mskcc_2019_923	Male	16	Other		2B	Yes	No	0:LIVING	7.79		
+P-0013632	glioma_mskcc_2019_924	Female	14	Ganglioglioma		2B	Yes	No	0:LIVING	21.9		
+P-0018609	glioma_mskcc_2019_925	Male	30	Diffuse astrocytoma, IDH-wildtype		2B	Yes	No	0:LIVING	21.3		
+P-0013711	glioma_mskcc_2019_926	Male	52	Glioblastoma, IDH-wildtype	Unmethylated	2B	Yes	No	1:DECEASED	9.86		
+P-0003456	glioma_mskcc_2019_93	Female	44	Glioblastoma, IDH-wildtype	Unmethylated	4	No	Yes	1:DECEASED	19.3	1:PROGRESSION	8.55
+P-0003079	glioma_mskcc_2019_94	Male	76	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	4.11		
+TRF056398	glioma_mskcc_2019_95	Male	66	Glioblastoma, IDH-wildtype	Unmethylated	None	No	No	1:DECEASED	9.57	1:PROGRESSION	7.96
+P-0002452	glioma_mskcc_2019_96	Female	56	Glioblastoma, IDH-wildtype	Unmethylated	2B	Yes	No	1:DECEASED	11.9	1:PROGRESSION	6.28
+P-0004609	glioma_mskcc_2019_97	Male	71	Glioblastoma, IDH-wildtype	Unmethylated	2B	Yes	No	1:DECEASED	12.4		
+P-0004771	glioma_mskcc_2019_98	Female	45	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	15.1		
+P-0006410	glioma_mskcc_2019_99	Male	28	Glioblastoma, IDH-wildtype	Unmethylated	4	No	No	1:DECEASED	22.8		

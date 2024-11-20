@@ -4,6 +4,7 @@ This is the repository with materials for the course Applied Data Sciences given
 Each folder contains information relevant to the corresponding module or project. 
 
 ## Modules Overview
+
 ### Module 1: Data Acquisition and Management
 Understanding diverse data sources
 

@@ -3,7 +3,9 @@
 ## Purpose
 
 • Think about data
+
 • Get used to the tools for working with data
+
 • Establish skills needed for the upcoming modules
 
 

@@ -1,6 +1,6 @@
 # Module 2
 
-# Purpose
+## Purpose
 
 • Introduce statistical concepts for describing and analyzing data
 
